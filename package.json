@@ -16,6 +16,10 @@
     "docs:devmem": "NODE_OPTIONS='--max-old-space-size=8192' vuepress dev . ",
     "docs:dev": "vuepress dev . ",
     "docs:build": "vuepress build .",
-    "docs:buildmem": "NODE_OPTIONS='--max-old-space-size=8192' vuepress build ."
+    "docs:buildmem": "NODE_OPTIONS='--max-old-space-size=8192' vuepress build .",
+    "debug": "node --nolazy --inspect-brk=9229 ./node_modules/.bin/vuepress dev"
+  },
+  "dependencies": {
+    "vue-simple-accordion": "^0.1.0"
   }
 }

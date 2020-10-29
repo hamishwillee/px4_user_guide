@@ -1,0 +1,1715 @@
+yarn run v1.22.5
+$ vuepress dev .  --debug
+debug global_options { theme: '@vuepress/default' }
+debug dev_options { '--': [], cache: true, clearScreen: true, debug: true }
+wait Extracting site metadata...
+debug sourceDir /home/ubuntu/github/px4_user_guide
+HAMISH: summaryfile_path? /home/ubuntu/github/px4_user_guide/en/SUMMARY.md
+OUTERLENGTH1
+[ [ '/en/', 'FRED' ] ]
+HAMISH: summaryfile_path? /home/ubuntu/github/px4_user_guide/zh/SUMMARY.md
+OUTERLENGTH1
+[ [ '/en/', 'FRED' ] ]
+debug Temp directory: /home/ubuntu/github/px4_user_guide/node_modules/@vuepress/core/.temp
+tip Apply theme @vuepress/theme-default ...
+debug theme @vuepress/theme-default /home/ubuntu/github/px4_user_guide/node_modules/@vuepress/theme-default
+debug parentTheme undefined undefined
+debug SSR Template File: /home/ubuntu/github/px4_user_guide/node_modules/@vuepress/core/lib/client/index.ssr.html
+debug DEV Template File: /home/ubuntu/github/px4_user_guide/node_modules/@vuepress/core/lib/client/index.dev.html
+debug globalLayout: /home/ubuntu/github/px4_user_guide/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue
+debug Plugins defined at @vuepress/internal-theme-entry-file [ [ '@vuepress/active-header-links', undefined ],
+  '@vuepress/search',
+  '@vuepress/plugin-nprogress',
+  [ 'container', { type: 'tip', defaultTitle: [Object] } ],
+  [ 'container', { type: 'warning', defaultTitle: [Object] } ],
+  [ 'container', { type: 'danger', defaultTitle: [Object] } ],
+  [ 'container',
+    { type: 'details',
+      before: [Function: before],
+      after: [Function: after] } ],
+  [ 'smooth-scroll', false ] ]
+debug Apply plugin @vuepress/internal-site-data ...
+debug Apply plugin @vuepress/internal-routes ...
+debug Apply plugin @vuepress/internal-root-mixins ...
+debug Apply plugin @vuepress/internal-enhance-app ...
+debug Apply plugin @vuepress/internal-palette ...
+debug Apply plugin @vuepress/internal-style ...
+debug Apply plugin @vuepress/internal-layout-components ...
+debug Apply plugin @vuepress/internal-page-components ...
+debug Apply plugin @vuepress/internal-transform-modules ...
+debug Apply plugin @vuepress/internal-data-block ...
+debug Apply plugin @vuepress/internal-frontmatter-block ...
+tip Apply plugin container (i.e. "vuepress-plugin-container") ...
+debug [@vuepress/plugin-last-updated] disabled.
+tip Apply plugin @vuepress/register-components (i.e. "@vuepress/plugin-register-components") ...
+debug Apply plugin @vuepress/internal-theme-entry-file ...
+tip Apply plugin @vuepress/active-header-links (i.e. "@vuepress/plugin-active-header-links") ...
+tip Apply plugin @vuepress/search (i.e. "@vuepress/plugin-search") ...
+tip Apply plugin @vuepress/nprogress (i.e. "@vuepress/plugin-nprogress") ...
+debug [vuepress-plugin-smooth-scroll] disabled.
+debug Apply plugin @vuepress/internal-theme-api ...
+debug Apply plugin @vuepress/internal-site-config ...
+debug applySyncOption: chainMarkdown
+debug applySyncOption: extendMarkdown
+# Summary
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+* [Introduction](README.md)
+pushed: /en/README.md,Introduction
+SB: 2
+* [Getting Started](getting_started/README.md)
+pushed: /en/getting_started/README.md,Getting Started
+SB: 3
+  * [Basic Concepts](getting_started/px4_basic_concepts.md)
+pushed: /en/getting_started/px4_basic_concepts.md,Basic Concepts
+SB: 4
+  * [Vehicles/Frames](getting_started/frame_selection.md)
+pushed: /en/getting_started/frame_selection.md,Vehicles/Frames
+SB: 5
+  * [Flight Controllers](getting_started/flight_controller_selection.md)
+pushed: /en/getting_started/flight_controller_selection.md,Flight Controllers
+SB: 6
+  * [Sensors](getting_started/sensor_selection.md)
+pushed: /en/getting_started/sensor_selection.md,Sensors
+SB: 7
+  * [Radio Systems](getting_started/rc_transmitter_receiver.md)
+pushed: /en/getting_started/rc_transmitter_receiver.md,Radio Systems
+SB: 8
+  * [Flight Modes](getting_started/flight_modes.md)
+pushed: /en/getting_started/flight_modes.md,Flight Modes
+SB: 9
+  * [Vehicle Status Notifications](getting_started/vehicle_status.md)
+pushed: /en/getting_started/vehicle_status.md,Vehicle Status Notifications
+SB: 10
+    * [LED Meanings](getting_started/led_meanings.md)
+pushed: /en/getting_started/led_meanings.md,LED Meanings
+SB: 11
+    * [Tune/Sound Meanings](getting_started/tunes.md)
+pushed: /en/getting_started/tunes.md,Tune/Sound Meanings
+SB: 12
+    * [Preflight Checks](flying/pre_flight_checks.md)
+pushed: /en/flying/pre_flight_checks.md,Preflight Checks
+SB: 13
+  * [Flight Reporting](getting_started/flight_reporting.md)
+pushed: /en/getting_started/flight_reporting.md,Flight Reporting
+SB: 14
+* [Basic Assembly](assembly/README.md)
+pushed: /en/assembly/README.md,Basic Assembly
+SB: 15
+  * [Mounting the Flight Controller](assembly/mount_and_orient_controller.md)
+pushed: /en/assembly/mount_and_orient_controller.md,Mounting the Flight Controller
+SB: 16
+  * [Vibration Isolation](assembly/vibration_isolation.md)
+pushed: /en/assembly/vibration_isolation.md,Vibration Isolation
+SB: 17
+  * [CUAV V5+ Wiring Quickstart](assembly/quick_start_cuav_v5_plus.md)
+pushed: /en/assembly/quick_start_cuav_v5_plus.md,CUAV V5+ Wiring Quickstart
+SB: 18
+  * [CUAV V5 nano Wiring Quickstart](assembly/quick_start_cuav_v5_nano.md)
+pushed: /en/assembly/quick_start_cuav_v5_nano.md,CUAV V5 nano Wiring Quickstart
+SB: 19
+  * [Durandal Wiring Quickstart](assembly/quick_start_durandal.md)
+pushed: /en/assembly/quick_start_durandal.md,Durandal Wiring Quickstart
+SB: 20
+  * [Pix32 v5 Wiring Quickstart](assembly/quick_start_holybro_pix32_v5.md)
+pushed: /en/assembly/quick_start_holybro_pix32_v5.md,Pix32 v5 Wiring Quickstart
+SB: 21
+  * [Pixhawk 4 Wiring Quickstart](assembly/quick_start_pixhawk4.md)
+pushed: /en/assembly/quick_start_pixhawk4.md,Pixhawk 4 Wiring Quickstart
+SB: 22
+  * [Pixhawk 4 Mini Wiring Quickstart](assembly/quick_start_pixhawk4_mini.md)
+pushed: /en/assembly/quick_start_pixhawk4_mini.md,Pixhawk 4 Mini Wiring Quickstart
+SB: 23
+  * [Cube Wiring Quickstart](assembly/quick_start_cube.md)
+pushed: /en/assembly/quick_start_cube.md,Cube Wiring Quickstart
+SB: 24
+  * [Pixracer Wiring Quickstart](assembly/quick_start_pixracer.md)
+pushed: /en/assembly/quick_start_pixracer.md,Pixracer Wiring Quickstart
+SB: 25
+  * [Pixhawk Wiring Quickstart](assembly/quick_start_pixhawk.md)
+pushed: /en/assembly/quick_start_pixhawk.md,Pixhawk Wiring Quickstart
+SB: 26
+* [Basic Configuration](config/README.md)
+pushed: /en/config/README.md,Basic Configuration
+SB: 27
+  * [Firmware](config/firmware.md)
+pushed: /en/config/firmware.md,Firmware
+SB: 28
+  * [Airframe](config/airframe.md)
+pushed: /en/config/airframe.md,Airframe
+SB: 29
+  * [Sensor Orientation](config/flight_controller_orientation.md)
+pushed: /en/config/flight_controller_orientation.md,Sensor Orientation
+SB: 30
+  * [Compass](config/compass.md)
+pushed: /en/config/compass.md,Compass
+SB: 31
+  * [Gyroscope](config/gyroscope.md)
+pushed: /en/config/gyroscope.md,Gyroscope
+SB: 32
+  * [Accelerometer](config/accelerometer.md)
+pushed: /en/config/accelerometer.md,Accelerometer
+SB: 33
+  * [Airspeed](config/airspeed.md)
+pushed: /en/config/airspeed.md,Airspeed
+SB: 34
+  * [Level Horizon Calibration](config/level_horizon_calibration.md)
+pushed: /en/config/level_horizon_calibration.md,Level Horizon Calibration
+SB: 35
+  * [Radio Setup](config/radio.md)
+pushed: /en/config/radio.md,Radio Setup
+SB: 36
+  * [Joystick Setup](config/joystick.md)
+pushed: /en/config/joystick.md,Joystick Setup
+SB: 37
+  * [Flight Modes](config/flight_mode.md)
+pushed: /en/config/flight_mode.md,Flight Modes
+SB: 38
+  * [Battery](config/battery.md)
+pushed: /en/config/battery.md,Battery
+SB: 39
+  * [Safety](config/safety.md)
+pushed: /en/config/safety.md,Safety
+SB: 40
+  * [Motors/Servos](config/motors.md)
+pushed: /en/config/motors.md,Motors/Servos
+SB: 41
+* [Airframe Builds](airframes/README.md)
+pushed: /en/airframes/README.md,Airframe Builds
+SB: 42
+  * [Airframes Reference](airframes/airframe_reference.md)
+pushed: /en/airframes/airframe_reference.md,Airframes Reference
+SB: 43
+  * [Multicopters](frames_multicopter/README.md)
+pushed: /en/frames_multicopter/README.md,Multicopters
+SB: 44
+    * [DJI F450 (CUAV v5+)](frames_multicopter/dji_f450_cuav_5plus.md)
+pushed: /en/frames_multicopter/dji_f450_cuav_5plus.md,DJI F450 (CUAV v5+)
+SB: 45
+    * [DJI F450 (CUAV v5 nano)](frames_multicopter/dji_f450_cuav_5nano.md)
+pushed: /en/frames_multicopter/dji_f450_cuav_5nano.md,DJI F450 (CUAV v5 nano)
+SB: 46
+    * [QAV250 (Pixhawk4 Mini)](frames_multicopter/holybro_qav250_pixhawk4_mini.md)
+pushed: /en/frames_multicopter/holybro_qav250_pixhawk4_mini.md,QAV250 (Pixhawk4 Mini)
+SB: 47
+    * [X500 (Pixhawk 4)](frames_multicopter/holybro_x500_pixhawk4.md)
+pushed: /en/frames_multicopter/holybro_x500_pixhawk4.md,X500 (Pixhawk 4)
+SB: 48
+    * [S500 V2 (Pixhawk 4)](frames_multicopter/holybro_s500_v2_pixhawk4.md)
+pushed: /en/frames_multicopter/holybro_s500_v2_pixhawk4.md,S500 V2 (Pixhawk 4)
+SB: 49
+    * [DJI F450 + RTK \(Pixhawk 3 Pro\)](frames_multicopter/dji_flamewheel_450.md)
+pushed: /en/frames_multicopter/dji_flamewheel_450.md,DJI F450 + RTK \(Pixhawk 3 Pro\)
+SB: 50
+    * [QAV250 \(Pixhawk Mini\)](frames_multicopter/lumenier_qav250_pixhawk_mini.md)
+pushed: /en/frames_multicopter/lumenier_qav250_pixhawk_mini.md,QAV250 \(Pixhawk Mini\)
+SB: 51
+    * [QAV250 \(Pixhawk/AUAV\_X2\)](frames_multicopter/lumenier_qav250_pixhawk_auav_x2.md)
+pushed: /en/frames_multicopter/lumenier_qav250_pixhawk_auav_x2.md,QAV250 \(Pixhawk/AUAV\_X2\)
+SB: 52
+    * [Spedix 250 \(Pixracer\)](frames_multicopter/spedix_s250_pixracer.md)
+pushed: /en/frames_multicopter/spedix_s250_pixracer.md,Spedix 250 \(Pixracer\)
+SB: 53
+    * [Robocat 270 \(Pixracer\)](frames_multicopter/robocat_270_pixracer.md)
+pushed: /en/frames_multicopter/robocat_270_pixracer.md,Robocat 270 \(Pixracer\)
+SB: 54
+    * [Matrice 100 (Pixhawk 1)](frames_multicopter/matrice100.md)
+pushed: /en/frames_multicopter/matrice100.md,Matrice 100 (Pixhawk 1)
+SB: 55
+    * [QAV-R 5" Racer (Pixracer)](frames_multicopter/qav_r_5_kiss_esc_racer.md)
+pushed: /en/frames_multicopter/qav_r_5_kiss_esc_racer.md,QAV-R 5" Racer (Pixracer)
+SB: 56
+  * [Planes](frames_plane/README.md)
+pushed: /en/frames_plane/README.md,Planes
+SB: 57
+    * [Wing Wing Z84 \(Pixracer\)](frames_plane/wing_wing_z84.md)
+pushed: /en/frames_plane/wing_wing_z84.md,Wing Wing Z84 \(Pixracer\)
+SB: 58
+  * [VTOL](frames_vtol/README.md)
+pushed: /en/frames_vtol/README.md,VTOL
+SB: 59
+    * [FunCub QuadPlane (Pixhawk)](frames_vtol/vtol_quadplane_fun_cub_vtol_pixhawk.md)
+pushed: /en/frames_vtol/vtol_quadplane_fun_cub_vtol_pixhawk.md,FunCub QuadPlane (Pixhawk)
+SB: 60
+    * [Ranger QuadPlane (Pixhawk)](frames_vtol/vtol_quadplane_volantex_ranger_ex_pixhawk.md)
+pushed: /en/frames_vtol/vtol_quadplane_volantex_ranger_ex_pixhawk.md,Ranger QuadPlane (Pixhawk)
+SB: 61
+    * [Convergence Tiltrotor (Pixfalcon)](frames_vtol/vtol_tiltrotor_eflite_convergence_pixfalcon.md)
+pushed: /en/frames_vtol/vtol_tiltrotor_eflite_convergence_pixfalcon.md,Convergence Tiltrotor (Pixfalcon)
+SB: 62
+    * [TBS Caipiroshka (Pixracer)](frames_vtol/vtol_tailsitter_caipiroshka_pixracer.md)
+pushed: /en/frames_vtol/vtol_tailsitter_caipiroshka_pixracer.md,TBS Caipiroshka (Pixracer)
+SB: 63
+    * [Falcon Vertigo QuadPlane (Dropix)](frames_vtol/vtol_quadplane_falcon_vertigo_hybrid_rtf_dropix.md)
+pushed: /en/frames_vtol/vtol_quadplane_falcon_vertigo_hybrid_rtf_dropix.md,Falcon Vertigo QuadPlane (Dropix)
+SB: 64
+  * [Rovers](frames_rover/README.md)
+pushed: /en/frames_rover/README.md,Rovers
+SB: 65
+    * [Traxxas Stampede](frames_rover/traxxas_stampede.md)
+pushed: /en/frames_rover/traxxas_stampede.md,Traxxas Stampede
+SB: 66
+* [Flying](flying/README.md)
+pushed: /en/flying/README.md,Flying
+SB: 67
+  * [First Flight Guidelines](flying/first_flight_guidelines.md)
+pushed: /en/flying/first_flight_guidelines.md,First Flight Guidelines
+SB: 68
+  * [Flying 101](flying/basic_flying.md)
+pushed: /en/flying/basic_flying.md,Flying 101
+SB: 69
+    * [Landing \(Fixed Wing\)](flying/fixed_wing_landing.md)
+pushed: /en/flying/fixed_wing_landing.md,Landing \(Fixed Wing\)
+SB: 70
+    * [Takeoff \(Fixed Wing\)](flying/fixed_wing_takeoff.md)
+pushed: /en/flying/fixed_wing_takeoff.md,Takeoff \(Fixed Wing\)
+SB: 71
+  * [Missions](flying/missions.md)
+pushed: /en/flying/missions.md,Missions
+SB: 72
+  * [GeoFence](flying/geofence.md)
+pushed: /en/flying/geofence.md,GeoFence
+SB: 73
+  * [Safety Point Planning](flying/plan_safety_points.md)
+pushed: /en/flying/plan_safety_points.md,Safety Point Planning
+SB: 74
+  * [Flight Modes](flight_modes/README.md)
+pushed: /en/flight_modes/README.md,Flight Modes
+SB: 75
+    * [Position Mode (MC)](flight_modes/position_mc.md)
+pushed: /en/flight_modes/position_mc.md,Position Mode (MC)
+SB: 76
+    * [Altitude Mode (MC)](flight_modes/altitude_mc.md)
+pushed: /en/flight_modes/altitude_mc.md,Altitude Mode (MC)
+SB: 77
+    * [Manual/Stabilized Mode (MC)](flight_modes/manual_stabilized_mc.md)
+pushed: /en/flight_modes/manual_stabilized_mc.md,Manual/Stabilized Mode (MC)
+SB: 78
+    * [Rattitude Mode (MC)](flight_modes/rattitude_mc.md)
+pushed: /en/flight_modes/rattitude_mc.md,Rattitude Mode (MC)
+SB: 79
+    * [Acro Mode (MC)](flight_modes/acro_mc.md)
+pushed: /en/flight_modes/acro_mc.md,Acro Mode (MC)
+SB: 80
+    * [Orbit Mode (MC)](flight_modes/orbit.md)
+pushed: /en/flight_modes/orbit.md,Orbit Mode (MC)
+SB: 81
+    * [Position Mode (FW)](flight_modes/position_fw.md)
+pushed: /en/flight_modes/position_fw.md,Position Mode (FW)
+SB: 82
+    * [Altitude Mode (FW)](flight_modes/altitude_fw.md)
+pushed: /en/flight_modes/altitude_fw.md,Altitude Mode (FW)
+SB: 83
+    * [Stabilized Mode (FW)](flight_modes/stabilized_fw.md)
+pushed: /en/flight_modes/stabilized_fw.md,Stabilized Mode (FW)
+SB: 84
+    * [Acro Mode (FW)](flight_modes/acro_fw.md)
+pushed: /en/flight_modes/acro_fw.md,Acro Mode (FW)
+SB: 85
+    * [Manual Mode (FW)](flight_modes/manual_fw.md)
+pushed: /en/flight_modes/manual_fw.md,Manual Mode (FW)
+SB: 86
+    * [Takeoff Mode](flight_modes/takeoff.md)
+pushed: /en/flight_modes/takeoff.md,Takeoff Mode
+SB: 87
+    * [Land Mode](flight_modes/land.md)
+pushed: /en/flight_modes/land.md,Land Mode
+SB: 88
+    * [Return Mode](flight_modes/return.md)
+pushed: /en/flight_modes/return.md,Return Mode
+SB: 89
+    * [Hold Mode](flight_modes/hold.md)
+pushed: /en/flight_modes/hold.md,Hold Mode
+SB: 90
+    * [Mission Mode](flight_modes/mission.md)
+pushed: /en/flight_modes/mission.md,Mission Mode
+SB: 91
+    * [Follow Me Mode](flight_modes/follow_me.md)
+pushed: /en/flight_modes/follow_me.md,Follow Me Mode
+SB: 92
+    * [Offboard Mode](flight_modes/offboard.md)
+pushed: /en/flight_modes/offboard.md,Offboard Mode
+SB: 93
+  * [Terrain Following/Holding](flying/terrain_following_holding.md)
+pushed: /en/flying/terrain_following_holding.md,Terrain Following/Holding
+SB: 94
+* [Flight Log Analysis](log/flight_log_analysis.md)
+pushed: /en/log/flight_log_analysis.md,Flight Log Analysis
+SB: 95
+  * [Log Analysis using Flight Review](log/flight_review.md)
+pushed: /en/log/flight_review.md,Log Analysis using Flight Review
+SB: 96
+* [Advanced Features](advanced_features/README.md)
+pushed: /en/advanced_features/README.md,Advanced Features
+SB: 97
+  * [Air Traffic Avoidance: ADSB/FLARM](advanced_features/traffic_avoidance_adsb.md)
+pushed: /en/advanced_features/traffic_avoidance_adsb.md,Air Traffic Avoidance: ADSB/FLARM
+SB: 98
+  * [Air Traffic Avoidance: UTM](advanced_features/traffic_avoidance_utm.md)
+pushed: /en/advanced_features/traffic_avoidance_utm.md,Air Traffic Avoidance: UTM
+SB: 99
+  * [Computer Vision](computer_vision/README.md)
+pushed: /en/computer_vision/README.md,Computer Vision
+SB: 100
+    * [Obstacle Avoidance](computer_vision/obstacle_avoidance.md)
+pushed: /en/computer_vision/obstacle_avoidance.md,Obstacle Avoidance
+SB: 101
+    * [Safe Landing](computer_vision/safe_landing.md)
+pushed: /en/computer_vision/safe_landing.md,Safe Landing
+SB: 102
+    * [Collision Prevention](computer_vision/collision_prevention.md)
+pushed: /en/computer_vision/collision_prevention.md,Collision Prevention
+SB: 103
+    * [Path Planning Interface](computer_vision/path_planning_interface.md)
+pushed: /en/computer_vision/path_planning_interface.md,Path Planning Interface
+SB: 104
+    * [Motion Capture (MoCap)](computer_vision/motion_capture.md)
+pushed: /en/computer_vision/motion_capture.md,Motion Capture (MoCap)
+SB: 105
+    * [Visual Inertial Odometry (VIO)](computer_vision/visual_inertial_odometry.md)
+pushed: /en/computer_vision/visual_inertial_odometry.md,Visual Inertial Odometry (VIO)
+SB: 106
+      * [Realsense T265 Tracking Camera (VIO)](peripherals/camera_t265_vio.md)
+pushed: /en/peripherals/camera_t265_vio.md,Realsense T265 Tracking Camera (VIO)
+SB: 107
+  * [Precision Landing](advanced_features/precland.md)
+pushed: /en/advanced_features/precland.md,Precision Landing
+SB: 108
+  * [RTK GPS](advanced_features/rtk-gps.md)
+pushed: /en/advanced_features/rtk-gps.md,RTK GPS
+SB: 109
+  * [RockBlock SatCom System](advanced_features/satcom_roadblock.md)
+pushed: /en/advanced_features/satcom_roadblock.md,RockBlock SatCom System
+SB: 110
+* [Advanced Configuration](advanced_config/README.md)
+pushed: /en/advanced_config/README.md,Advanced Configuration
+SB: 111
+  * [Finding/Updating Parameters](advanced_config/parameters.md)
+pushed: /en/advanced_config/parameters.md,Finding/Updating Parameters
+SB: 112
+  * [Multicopter Config/Tuning](config_mc/README.md)
+pushed: /en/config_mc/README.md,Multicopter Config/Tuning
+SB: 113
+    * [MC PID Tuning Guide](config_mc/pid_tuning_guide_multicopter.md)
+pushed: /en/config_mc/pid_tuning_guide_multicopter.md,MC PID Tuning Guide
+SB: 114
+    * [MC Setpoint Tuning (Trajectory Generator)](config_mc/mc_trajectory_tuning.md)
+pushed: /en/config_mc/mc_trajectory_tuning.md,MC Setpoint Tuning (Trajectory Generator)
+SB: 115
+      * [MC Jerk-limited Type Trajectory](config_mc/mc_jerk_limited_type_trajectory.md)
+pushed: /en/config_mc/mc_jerk_limited_type_trajectory.md,MC Jerk-limited Type Trajectory
+SB: 116
+      * [MC Slew-rate Type Trajectory](config_mc/mc_slew_rate_type_trajectory.md)
+pushed: /en/config_mc/mc_slew_rate_type_trajectory.md,MC Slew-rate Type Trajectory
+SB: 117
+    * [Multicopter Racer Setup](config_mc/racer_setup.md)
+pushed: /en/config_mc/racer_setup.md,Multicopter Racer Setup
+SB: 118
+  * [Fixed Wing  Config/Tuning](config_fw/README.md)
+pushed: /en/config_fw/README.md,Fixed Wing  Config/Tuning
+SB: 119
+    * [Fixedwing PID Tuning Guide](config_fw/pid_tuning_guide_fixedwing.md)
+pushed: /en/config_fw/pid_tuning_guide_fixedwing.md,Fixedwing PID Tuning Guide
+SB: 120
+    * [Fixedwing Advanced Tuning Guide](config_fw/advanced_tuning_guide_fixedwing.md)
+pushed: /en/config_fw/advanced_tuning_guide_fixedwing.md,Fixedwing Advanced Tuning Guide
+SB: 121
+    * [Fixedwing Trimming Guide](config_fw/trimming_guide_fixedwing.md)
+pushed: /en/config_fw/trimming_guide_fixedwing.md,Fixedwing Trimming Guide
+SB: 122
+  * [VTOL Config/Tuning](config_vtol/README.md)
+pushed: /en/config_vtol/README.md,VTOL Config/Tuning
+SB: 123
+    * [QuadPlane Configuration](config_vtol/vtol_quad_configuration.md)
+pushed: /en/config_vtol/vtol_quad_configuration.md,QuadPlane Configuration
+SB: 124
+    * [Back-transition Tuning](config_vtol/vtol_back_transition_tuning.md)
+pushed: /en/config_vtol/vtol_back_transition_tuning.md,Back-transition Tuning
+SB: 125
+    * [VTOL w/o Airspeed Sensor](config_vtol/vtol_without_airspeed_sensor.md)
+pushed: /en/config_vtol/vtol_without_airspeed_sensor.md,VTOL w/o Airspeed Sensor
+SB: 126
+    * [VTOL Weather Vane](config_vtol/vtol_weathervane.md)
+pushed: /en/config_vtol/vtol_weathervane.md,VTOL Weather Vane
+SB: 127
+  * [ESC Calibration](advanced_config/esc_calibration.md)
+pushed: /en/advanced_config/esc_calibration.md,ESC Calibration
+SB: 128
+  * [ECL/EKF Overview & Tuning](advanced_config/tuning_the_ecl_ekf.md)
+pushed: /en/advanced_config/tuning_the_ecl_ekf.md,ECL/EKF Overview & Tuning
+SB: 129
+  * [Flight Termination Configuration](advanced_config/flight_termination.md)
+pushed: /en/advanced_config/flight_termination.md,Flight Termination Configuration
+SB: 130
+  * [Bootloader Update](advanced_config/bootloader_update.md)
+pushed: /en/advanced_config/bootloader_update.md,Bootloader Update
+SB: 131
+  * [Bootloader Flashing onto Betaflight Systems](advanced_config/bootloader_update_from_betaflight.md)
+pushed: /en/advanced_config/bootloader_update_from_betaflight.md,Bootloader Flashing onto Betaflight Systems
+SB: 132
+  * [Land Detector Configuration](advanced_config/land_detector.md)
+pushed: /en/advanced_config/land_detector.md,Land Detector Configuration
+SB: 133
+  * [Sensor Thermal Compensation](advanced_config/sensor_thermal_calibration.md)
+pushed: /en/advanced_config/sensor_thermal_calibration.md,Sensor Thermal Compensation
+SB: 134
+  * [Compass Power Compensation](advanced_config/compass_power_compensation.md)
+pushed: /en/advanced_config/compass_power_compensation.md,Compass Power Compensation
+SB: 135
+  * [Advanced Controller Orientation](advanced_config/advanced_flight_controller_orientation_leveling.md)
+pushed: /en/advanced_config/advanced_flight_controller_orientation_leveling.md,Advanced Controller Orientation
+SB: 136
+  * [Static Pressure Buildup](advanced_config/static_pressure_buildup.md)
+pushed: /en/advanced_config/static_pressure_buildup.md,Static Pressure Buildup
+SB: 137
+  * [Prearm/Arm/Disarm Configuration](advanced_config/prearm_arm_disarm.md)
+pushed: /en/advanced_config/prearm_arm_disarm.md,Prearm/Arm/Disarm Configuration
+SB: 138
+  * [Full Parameter Reference](advanced_config/parameter_reference.md)
+pushed: /en/advanced_config/parameter_reference.md,Full Parameter Reference
+SB: 139
+* [Peripheral Hardware](peripherals/README.md)
+pushed: /en/peripherals/README.md,Peripheral Hardware
+SB: 140
+  * [Serial Port Configuration](peripherals/serial_configuration.md)
+pushed: /en/peripherals/serial_configuration.md,Serial Port Configuration
+SB: 141
+  * [GPS/Compass](gps_compass/README.md)
+pushed: /en/gps_compass/README.md,GPS/Compass
+SB: 142
+    * [RTK GPS](gps_compass/rtk_gps.md)
+pushed: /en/gps_compass/rtk_gps.md,RTK GPS
+SB: 143
+      * [CUAV C-RTK](gps_compass/rtk_gps_cuav_c-rtk.md)
+pushed: /en/gps_compass/rtk_gps_cuav_c-rtk.md,CUAV C-RTK
+SB: 144
+      * [Drotek XL](gps_compass/rtk_gps_drotek_xl.md)
+pushed: /en/gps_compass/rtk_gps_drotek_xl.md,Drotek XL
+SB: 145
+      * [Femtones MINI2 Receiver](gps_compass/rtk_gps_fem_mini2.md)
+pushed: /en/gps_compass/rtk_gps_fem_mini2.md,Femtones MINI2 Receiver
+SB: 146
+      * [Freefly RTK GPS](gps_compass/rtk_gps_freefly.md)
+pushed: /en/gps_compass/rtk_gps_freefly.md,Freefly RTK GPS
+SB: 147
+      * [Hex Here+](gps_compass/rtk_gps_hex_hereplus.md)
+pushed: /en/gps_compass/rtk_gps_hex_hereplus.md,Hex Here+
+SB: 148
+      * [Hex Here2](gps_compass/rtk_gps_hex_here2.md)
+pushed: /en/gps_compass/rtk_gps_hex_here2.md,Hex Here2
+SB: 149
+      * [Holybro H-RTK-F9P](gps_compass/rtk_gps_holybro_h-rtk-f9p.md)
+pushed: /en/gps_compass/rtk_gps_holybro_h-rtk-f9p.md,Holybro H-RTK-F9P
+SB: 150
+      * [Holybro H-RTK-M8P](gps_compass/rtk_gps_holybro_h-rtk-m8p.md)
+pushed: /en/gps_compass/rtk_gps_holybro_h-rtk-m8p.md,Holybro H-RTK-M8P
+SB: 151
+      * [Trimble MB-Two](gps_compass/rtk_gps_trimble_mb_two.md)
+pushed: /en/gps_compass/rtk_gps_trimble_mb_two.md,Trimble MB-Two
+SB: 152
+  * [Telemetry Radios](telemetry/README.md)
+pushed: /en/telemetry/README.md,Telemetry Radios
+SB: 153
+    * [SiK Radio](telemetry/sik_radio.md)
+pushed: /en/telemetry/sik_radio.md,SiK Radio
+SB: 154
+      * [RFD900 (SiK) Telemetry Radio](telemetry/rfd900_telemetry.md)
+pushed: /en/telemetry/rfd900_telemetry.md,RFD900 (SiK) Telemetry Radio
+SB: 155
+      * [HKPilot (SIK) Telemetry Radio](telemetry/hkpilot_sik_radio.md)
+pushed: /en/telemetry/hkpilot_sik_radio.md,HKPilot (SIK) Telemetry Radio
+SB: 156
+      * [HolyBro (SIK) Telemetry Radio](telemetry/holybro_sik_radio.md)
+pushed: /en/telemetry/holybro_sik_radio.md,HolyBro (SIK) Telemetry Radio
+SB: 157
+    * [Telemetry Wifi](telemetry/telemetry_wifi.md)
+pushed: /en/telemetry/telemetry_wifi.md,Telemetry Wifi
+SB: 158
+      * [ESP8266 WiFi Module](telemetry/esp8266_wifi_module.md)
+pushed: /en/telemetry/esp8266_wifi_module.md,ESP8266 WiFi Module
+SB: 159
+      * [3DR Telemetry Wifi (Discontinued)](telemetry/3dr_telemetry_wifi.md)
+pushed: /en/telemetry/3dr_telemetry_wifi.md,3DR Telemetry Wifi (Discontinued)
+SB: 160
+  * [MAVLink Telemetry (OSD/GCS)](peripherals/mavlink_peripherals.md)
+pushed: /en/peripherals/mavlink_peripherals.md,MAVLink Telemetry (OSD/GCS)
+SB: 161
+  * [FrSky Telemetry](peripherals/frsky_telemetry.md)
+pushed: /en/peripherals/frsky_telemetry.md,FrSky Telemetry
+SB: 162
+  * [Power Modules](power_module/README.md)
+pushed: /en/power_module/README.md,Power Modules
+SB: 163
+    * [CUAV HV pm](power_module/cuav_hv_pm.md)
+pushed: /en/power_module/cuav_hv_pm.md,CUAV HV pm
+SB: 164
+    * [CUAV CAN PMU](power_module/cuav_can_pmu.md)
+pushed: /en/power_module/cuav_can_pmu.md,CUAV CAN PMU
+SB: 165
+    * [Holybro PM07 (Pixhawk 4 PM)](power_module/holybro_pm07_pixhawk4_power_module.md)
+pushed: /en/power_module/holybro_pm07_pixhawk4_power_module.md,Holybro PM07 (Pixhawk 4 PM)
+SB: 166
+    * [Holybro PM06 (Micro Power Module)](power_module/holybro_pm06_pixhawk4mini_power_module.md)
+pushed: /en/power_module/holybro_pm06_pixhawk4mini_power_module.md,Holybro PM06 (Micro Power Module)
+SB: 167
+    * [Pomegranate Systems Power Module](power_module/pomegranate_systems_pm.md)
+pushed: /en/power_module/pomegranate_systems_pm.md,Pomegranate Systems Power Module
+SB: 168
+  * [Distance Sensors \(Rangefinders\)](sensor/rangefinders.md)
+pushed: /en/sensor/rangefinders.md,Distance Sensors \(Rangefinders\)
+SB: 169
+    * [Lightware SFxx Lidar](sensor/sfxx_lidar.md)
+pushed: /en/sensor/sfxx_lidar.md,Lightware SFxx Lidar
+SB: 170
+    * [Ainstein US-D1 Standard Radar Altimeter](sensor/ulanding_radar.md)
+pushed: /en/sensor/ulanding_radar.md,Ainstein US-D1 Standard Radar Altimeter
+SB: 171
+    * [LeddarOne Lidar](sensor/leddar_one.md)
+pushed: /en/sensor/leddar_one.md,LeddarOne Lidar
+SB: 172
+    * [Benewake TFmini Lidar](sensor/tfmini.md)
+pushed: /en/sensor/tfmini.md,Benewake TFmini Lidar
+SB: 173
+    * [Lidar-Lite](sensor/lidar_lite.md)
+pushed: /en/sensor/lidar_lite.md,Lidar-Lite
+SB: 174
+    * [TeraRanger](sensor/teraranger.md)
+pushed: /en/sensor/teraranger.md,TeraRanger
+SB: 175
+    * [Lanbao PSK-CM8JL65-CC5](sensor/cm8jl65_ir_distance_sensor.md)
+pushed: /en/sensor/cm8jl65_ir_distance_sensor.md,Lanbao PSK-CM8JL65-CC5
+SB: 176
+    * [Avionics Anonymous Laser Altimeter UAVCAN Interface](sensor/avanon_laser_interface.md)
+pushed: /en/sensor/avanon_laser_interface.md,Avionics Anonymous Laser Altimeter UAVCAN Interface
+SB: 177
+  * [Tachometers (Revolution Counters)](sensor/tachometers.md)
+pushed: /en/sensor/tachometers.md,Tachometers (Revolution Counters)
+SB: 178
+    * [ThunderFly TFRPM01 Tachometer Sensor](sensor/thunderfly_tachometer.md)
+pushed: /en/sensor/thunderfly_tachometer.md,ThunderFly TFRPM01 Tachometer Sensor
+SB: 179
+  * [Airspeed Sensors](sensor/airspeed.md)
+pushed: /en/sensor/airspeed.md,Airspeed Sensors
+SB: 180
+  * [Optical Flow](sensor/optical_flow.md)
+pushed: /en/sensor/optical_flow.md,Optical Flow
+SB: 181
+    * [PX4FLOW](sensor/px4flow.md)
+pushed: /en/sensor/px4flow.md,PX4FLOW
+SB: 182
+    * [PMW3901](sensor/pmw3901.md)
+pushed: /en/sensor/pmw3901.md,PMW3901
+SB: 183
+  * [ESCs & Motors](peripherals/esc_motors.md)
+pushed: /en/peripherals/esc_motors.md,ESCs & Motors
+SB: 184
+    * [PWM ESCs and Servos](peripherals/pwm_escs_and_servo.md)
+pushed: /en/peripherals/pwm_escs_and_servo.md,PWM ESCs and Servos
+SB: 185
+    * [DShot ESCs](peripherals/dshot.md)
+pushed: /en/peripherals/dshot.md,DShot ESCs
+SB: 186
+    * [UAVCAN ESCs](peripherals/uavcan_escs.md)
+pushed: /en/peripherals/uavcan_escs.md,UAVCAN ESCs
+SB: 187
+  * [Camera](peripherals/camera.md)
+pushed: /en/peripherals/camera.md,Camera
+SB: 188
+  * [Parachute](peripherals/parachute.md)
+pushed: /en/peripherals/parachute.md,Parachute
+SB: 189
+  * [Companion Computer Peripherals](peripherals/companion_computer_peripherals.md)
+pushed: /en/peripherals/companion_computer_peripherals.md,Companion Computer Peripherals
+SB: 190
+  * [ADSB/FLARM (Traffic Avoidance)](peripherals/adsb_flarm.md)
+pushed: /en/peripherals/adsb_flarm.md,ADSB/FLARM (Traffic Avoidance)
+SB: 191
+* [Autopilot Hardware](flight_controller/README.md)
+pushed: /en/flight_controller/README.md,Autopilot Hardware
+SB: 192
+  * [Pixhawk Series](flight_controller/pixhawk_series.md)
+pushed: /en/flight_controller/pixhawk_series.md,Pixhawk Series
+SB: 193
+    * [Silicon Errata](flight_controller/silicon_errata.md)
+pushed: /en/flight_controller/silicon_errata.md,Silicon Errata
+SB: 194
+  * [Pixhawk Standard Autopilots](flight_controller/autopilot_pixhawk_standard.md)
+pushed: /en/flight_controller/autopilot_pixhawk_standard.md,Pixhawk Standard Autopilots
+SB: 195
+    * [Holybro Pixhawk 4 (FMUv5)](flight_controller/pixhawk4.md)
+pushed: /en/flight_controller/pixhawk4.md,Holybro Pixhawk 4 (FMUv5)
+SB: 196
+    * [Holybro Pixhawk 4 Mini (FMUv5)](flight_controller/pixhawk4_mini.md)
+pushed: /en/flight_controller/pixhawk4_mini.md,Holybro Pixhawk 4 Mini (FMUv5)
+SB: 197
+    * [Drotek Pixhawk 3 Pro (FMUv4pro)](flight_controller/pixhawk3_pro.md)
+pushed: /en/flight_controller/pixhawk3_pro.md,Drotek Pixhawk 3 Pro (FMUv4pro)
+SB: 198
+    * [mRo Pixracer (FMUv4)](flight_controller/pixracer.md)
+pushed: /en/flight_controller/pixracer.md,mRo Pixracer (FMUv4)
+SB: 199
+    * [Hex Cube Black (FMUv3)](flight_controller/pixhawk-2.md)
+pushed: /en/flight_controller/pixhawk-2.md,Hex Cube Black (FMUv3)
+SB: 200
+    * [CUAV Pixhack v3 (FMUv3)](flight_controller/pixhack_v3.md)
+pushed: /en/flight_controller/pixhack_v3.md,CUAV Pixhack v3 (FMUv3)
+SB: 201
+    * [mRo Pixhawk (FMUv3)](flight_controller/mro_pixhawk.md)
+pushed: /en/flight_controller/mro_pixhawk.md,mRo Pixhawk (FMUv3)
+SB: 202
+    * [Holybro pix32 (FMUv2)](flight_controller/holybro_pix32.md)
+pushed: /en/flight_controller/holybro_pix32.md,Holybro pix32 (FMUv2)
+SB: 203
+    * [Holybro Pixhawk Mini (FMUv2)](flight_controller/pixhawk_mini.md)
+pushed: /en/flight_controller/pixhawk_mini.md,Holybro Pixhawk Mini (FMUv2)
+SB: 204
+  * [Manufacturer-Supported Autopilots](flight_controller/autopilot_manufacturer_supported.md)
+pushed: /en/flight_controller/autopilot_manufacturer_supported.md,Manufacturer-Supported Autopilots
+SB: 205
+    * [AirMind MindPX](flight_controller/mindpx.md)
+pushed: /en/flight_controller/mindpx.md,AirMind MindPX
+SB: 206
+    * [AirMind MindRacer](flight_controller/mindracer.md)
+pushed: /en/flight_controller/mindracer.md,AirMind MindRacer
+SB: 207
+    * [CUAV V5+ (FMUv5)](flight_controller/cuav_v5_plus.md)
+pushed: /en/flight_controller/cuav_v5_plus.md,CUAV V5+ (FMUv5)
+SB: 208
+    * [CUAV V5 nano (FMUv5)](flight_controller/cuav_v5_nano.md)
+pushed: /en/flight_controller/cuav_v5_nano.md,CUAV V5 nano (FMUv5)
+SB: 209
+    * [Cube Orange (CubePilot)](flight_controller/cubepilot_cube_orange.md)
+pushed: /en/flight_controller/cubepilot_cube_orange.md,Cube Orange (CubePilot)
+SB: 210
+    * [Cube Yellow (CubePilot)](flight_controller/cubepilot_cube_yellow.md)
+pushed: /en/flight_controller/cubepilot_cube_yellow.md,Cube Yellow (CubePilot)
+SB: 211
+    * [Drotek Dropix (FMUv2)](flight_controller/dropix.md)
+pushed: /en/flight_controller/dropix.md,Drotek Dropix (FMUv2)
+SB: 212
+    * [Holybro Kakute F7](flight_controller/kakutef7.md)
+pushed: /en/flight_controller/kakutef7.md,Holybro Kakute F7
+SB: 213
+    * [Holybro Durandal](flight_controller/durandal.md)
+pushed: /en/flight_controller/durandal.md,Holybro Durandal
+SB: 214
+    * [Holybro Pix32 v5](flight_controller/holybro_pix32_v5.md)
+pushed: /en/flight_controller/holybro_pix32_v5.md,Holybro Pix32 v5
+SB: 215
+    * [mRobotics-X2.1 (FMUv2)](flight_controller/mro_x2.1.md)
+pushed: /en/flight_controller/mro_x2.1.md,mRobotics-X2.1 (FMUv2)
+SB: 216
+    * [mRo Control Zero F7)](flight_controller/mro_control_zero_f7.md)
+pushed: /en/flight_controller/mro_control_zero_f7.md,mRo Control Zero F7)
+SB: 217
+    * [NXP RDDRONE-FMUK66 FMU](flight_controller/nxp_rddrone_fmuk66.md)
+pushed: /en/flight_controller/nxp_rddrone_fmuk66.md,NXP RDDRONE-FMUK66 FMU
+SB: 218
+    * [Omnibus F4 SD](flight_controller/omnibus_f4_sd.md)
+pushed: /en/flight_controller/omnibus_f4_sd.md,Omnibus F4 SD
+SB: 219
+    * [ModalAI Flight Core v1](flight_controller/modalai_fc_v1.md)
+pushed: /en/flight_controller/modalai_fc_v1.md,ModalAI Flight Core v1
+SB: 220
+    * [SPRacing SPRacingH7EXTREME](flight_controller/spracingh7extreme.md)
+pushed: /en/flight_controller/spracingh7extreme.md,SPRacing SPRacingH7EXTREME
+SB: 221
+  * [Experimental/Discontinued Autopilots](flight_controller/autopilot_experimental.md)
+pushed: /en/flight_controller/autopilot_experimental.md,Experimental/Discontinued Autopilots
+SB: 222
+    * [Aerotenna OcPoC-Zynq Mini](flight_controller/ocpoc_zynq.md)
+pushed: /en/flight_controller/ocpoc_zynq.md,Aerotenna OcPoC-Zynq Mini
+SB: 223
+    * [BeagleBone Blue](flight_controller/beaglebone_blue.md)
+pushed: /en/flight_controller/beaglebone_blue.md,BeagleBone Blue
+SB: 224
+    * [Bitcraze Crazyflie 2.0](complete_vehicles/crazyflie2.md)
+pushed: /en/complete_vehicles/crazyflie2.md,Bitcraze Crazyflie 2.0
+SB: 225
+    * [CUAV v5 (Discontinued)](flight_controller/cuav_v5.md)
+pushed: /en/flight_controller/cuav_v5.md,CUAV v5 (Discontinued)
+SB: 226
+    * [Holybro Pixfalcon (Discontinued)](flight_controller/pixfalcon.md)
+pushed: /en/flight_controller/pixfalcon.md,Holybro Pixfalcon (Discontinued)
+SB: 227
+    * [mRo AUAV-X2 (Discontinued)](flight_controller/auav_x2.md)
+pushed: /en/flight_controller/auav_x2.md,mRo AUAV-X2 (Discontinued)
+SB: 228
+    * [Raspberry Pi 2/3 Navio2](flight_controller/raspberry_pi_navio2.md)
+pushed: /en/flight_controller/raspberry_pi_navio2.md,Raspberry Pi 2/3 Navio2
+SB: 229
+    * [Snapdragon Flight (Discontinued)](flight_controller/snapdragon_flight.md)
+pushed: /en/flight_controller/snapdragon_flight.md,Snapdragon Flight (Discontinued)
+SB: 230
+      * [Hardware Setup Example](flight_controller/snapdragon_flight_hardware_example_setup.md)
+pushed: /en/flight_controller/snapdragon_flight_hardware_example_setup.md,Hardware Setup Example
+SB: 231
+      * [Developer Environment Installation](flight_controller/snapdragon_flight_dev_environment_installation.md)
+pushed: /en/flight_controller/snapdragon_flight_dev_environment_installation.md,Developer Environment Installation
+SB: 232
+      * [Snapdragon Software Installation](flight_controller/snapdragon_flight_software_installation.md)
+pushed: /en/flight_controller/snapdragon_flight_software_installation.md,Snapdragon Software Installation
+SB: 233
+      * [Configuration](flight_controller/snapdragon_flight_configuration.md)
+pushed: /en/flight_controller/snapdragon_flight_configuration.md,Configuration
+SB: 234
+      * [Snapdragon Advanced](flight_controller/snapdragon_flight_advanced.md)
+pushed: /en/flight_controller/snapdragon_flight_advanced.md,Snapdragon Advanced
+SB: 235
+    * [3DR Pixhawk 1 (Discontinued)](flight_controller/pixhawk.md)
+pushed: /en/flight_controller/pixhawk.md,3DR Pixhawk 1 (Discontinued)
+SB: 236
+* [Complete Vehicles](complete_vehicles/README.md)
+pushed: /en/complete_vehicles/README.md,Complete Vehicles
+SB: 237
+  * [PX4 Vision Kit](complete_vehicles/px4_vision_kit.md)
+pushed: /en/complete_vehicles/px4_vision_kit.md,PX4 Vision Kit
+SB: 238
+  * [MindRacer BNF & RTF](complete_vehicles/mindracer_BNF_RTF.md)
+pushed: /en/complete_vehicles/mindracer_BNF_RTF.md,MindRacer BNF & RTF
+SB: 239
+    * [MindRacer 210](complete_vehicles/mindracer210.md)
+pushed: /en/complete_vehicles/mindracer210.md,MindRacer 210
+SB: 240
+    * [NanoMind 110](complete_vehicles/nanomind110.md)
+pushed: /en/complete_vehicles/nanomind110.md,NanoMind 110
+SB: 241
+  * [BetaFPV Beta75X 2S Brushless Whoop](complete_vehicles/betafpv_beta75x.md)
+pushed: /en/complete_vehicles/betafpv_beta75x.md,BetaFPV Beta75X 2S Brushless Whoop
+SB: 242
+  * [Holybro Kopis 2](complete_vehicles/holybro_kopis2.md)
+pushed: /en/complete_vehicles/holybro_kopis2.md,Holybro Kopis 2
+SB: 243
+  * [Intel® Aero RTF Drone (Discontinued)](complete_vehicles/intel_aero.md)
+pushed: /en/complete_vehicles/intel_aero.md,Intel® Aero RTF Drone (Discontinued)
+SB: 244
+* [Development](development/development.md)
+pushed: /en/development/development.md,Development
+SB: 245
+
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+## Dronecode Shortcuts
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+* [PX4 Developer Guide](https://dev.px4.io/master/en/)
+pushed: /en/https://dev.px4.io/master/en/,PX4 Developer Guide
+SB: 246
+* [QGroundControl User Guide](https://docs.qgroundcontrol.com/en/)
+pushed: /en/https://docs.qgroundcontrol.com/en/,QGroundControl User Guide
+SB: 247
+* [QGroundControl Developer Guide](https://dev.qgroundcontrol.com/en/)
+pushed: /en/https://dev.qgroundcontrol.com/en/,QGroundControl Developer Guide
+SB: 248
+* [MAVLink Guide](https://mavlink.io/en/)
+pushed: /en/https://mavlink.io/en/,MAVLink Guide
+SB: 249
+* [MAVSDK](https://mavsdk.mavlink.io/)
+pushed: /en/https://mavsdk.mavlink.io/,MAVSDK
+SB: 250
+* [Dronecode Camera Manager](https://camera-manager.dronecode.org/en/)
+pushed: /en/https://camera-manager.dronecode.org/en/,Dronecode Camera Manager
+SB: 251
+# 概览
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+* [简介](README.md)
+pushed: /zh/README.md,简介
+SB: 2
+* [入门指南](getting_started/README.md) 
+pushed: /zh/getting_started/README.md,入门指南
+SB: 3
+  * [基本概念](getting_started/px4_basic_concepts.md)
+pushed: /zh/getting_started/px4_basic_concepts.md,基本概念
+SB: 4
+  * [载具/机架](getting_started/frame_selection.md)
+pushed: /zh/getting_started/frame_selection.md,载具/机架
+SB: 5
+  * [飞控](getting_started/flight_controller_selection.md)
+pushed: /zh/getting_started/flight_controller_selection.md,飞控
+SB: 6
+  * [传感器](getting_started/sensor_selection.md)
+pushed: /zh/getting_started/sensor_selection.md,传感器
+SB: 7
+  * [无线电系统](getting_started/rc_transmitter_receiver.md)
+pushed: /zh/getting_started/rc_transmitter_receiver.md,无线电系统
+SB: 8
+  * [飞行模式](getting_started/flight_modes.md)
+pushed: /zh/getting_started/flight_modes.md,飞行模式
+SB: 9
+  * [载具状态通知](getting_started/vehicle_status.md) 
+pushed: /zh/getting_started/vehicle_status.md,载具状态通知
+SB: 10
+    * [LED灯含义](getting_started/led_meanings.md)
+pushed: /zh/getting_started/led_meanings.md,LED灯含义
+SB: 11
+    * [声调/声音含义](getting_started/tunes.md)
+pushed: /zh/getting_started/tunes.md,声调/声音含义
+SB: 12
+    * [飞行前检查](flying/pre_flight_checks.md)
+pushed: /zh/flying/pre_flight_checks.md,飞行前检查
+SB: 13
+  * [飞行报告](getting_started/flight_reporting.md)
+pushed: /zh/getting_started/flight_reporting.md,飞行报告
+SB: 14
+* [基本装配](assembly/README.md) 
+pushed: /zh/assembly/README.md,基本装配
+SB: 15
+  * [安装飞控](assembly/mount_and_orient_controller.md)
+pushed: /zh/assembly/mount_and_orient_controller.md,安装飞控
+SB: 16
+  * [震动隔离](assembly/vibration_isolation.md)
+pushed: /zh/assembly/vibration_isolation.md,震动隔离
+SB: 17
+  * [雷迅 V5+飞控快速接线指南](assembly/quick_start_cuav_v5_plus.md)
+pushed: /zh/assembly/quick_start_cuav_v5_plus.md,雷迅 V5+飞控快速接线指南
+SB: 18
+  * [雷迅 V5 nano飞控快速接线指南](assembly/quick_start_cuav_v5_nano.md)
+pushed: /zh/assembly/quick_start_cuav_v5_nano.md,雷迅 V5 nano飞控快速接线指南
+SB: 19
+  * [Durandal 快速接线指南](assembly/quick_start_durandal.md)
+pushed: /zh/assembly/quick_start_durandal.md,Durandal 快速接线指南
+SB: 20
+  * [Pix32 v5 Wiring Quickstart](assembly/quick_start_holybro_pix32_v5.md)
+pushed: /zh/assembly/quick_start_holybro_pix32_v5.md,Pix32 v5 Wiring Quickstart
+SB: 21
+  * [Pixhawk 4 Wiring Quickstart](assembly/quick_start_pixhawk4.md)
+pushed: /zh/assembly/quick_start_pixhawk4.md,Pixhawk 4 Wiring Quickstart
+SB: 22
+  * [Pixhawk 4 Mini Wiring Quickstart](assembly/quick_start_pixhawk4_mini.md)
+pushed: /zh/assembly/quick_start_pixhawk4_mini.md,Pixhawk 4 Mini Wiring Quickstart
+SB: 23
+  * [Cube Wiring Quickstart](assembly/quick_start_cube.md)
+pushed: /zh/assembly/quick_start_cube.md,Cube Wiring Quickstart
+SB: 24
+  * [Pixracer Wiring Quickstart](assembly/quick_start_pixracer.md)
+pushed: /zh/assembly/quick_start_pixracer.md,Pixracer Wiring Quickstart
+SB: 25
+  * [Pixhawk Wiring Quickstart](assembly/quick_start_pixhawk.md)
+pushed: /zh/assembly/quick_start_pixhawk.md,Pixhawk Wiring Quickstart
+SB: 26
+* [基本配置](config/README.md) 
+pushed: /zh/config/README.md,基本配置
+SB: 27
+  * [固件](config/firmware.md)
+pushed: /zh/config/firmware.md,固件
+SB: 28
+  * [机架](config/airframe.md)
+pushed: /zh/config/airframe.md,机架
+SB: 29
+  * [传感器方向](config/flight_controller_orientation.md)
+pushed: /zh/config/flight_controller_orientation.md,传感器方向
+SB: 30
+  * [罗盘](config/compass.md)
+pushed: /zh/config/compass.md,罗盘
+SB: 31
+  * [陀螺仪](config/gyroscope.md)
+pushed: /zh/config/gyroscope.md,陀螺仪
+SB: 32
+  * [加速度计](config/accelerometer.md)
+pushed: /zh/config/accelerometer.md,加速度计
+SB: 33
+  * [空速：](config/airspeed.md)
+pushed: /zh/config/airspeed.md,空速：
+SB: 34
+  * [水平平面校准](config/level_horizon_calibration.md)
+pushed: /zh/config/level_horizon_calibration.md,水平平面校准
+SB: 35
+  * [无线电系统设置](config/radio.md)
+pushed: /zh/config/radio.md,无线电系统设置
+SB: 36
+  * [游戏手柄设置](config/joystick.md)
+pushed: /zh/config/joystick.md,游戏手柄设置
+SB: 37
+  * [飞行模式](config/flight_mode.md)
+pushed: /zh/config/flight_mode.md,飞行模式
+SB: 38
+  * [电池](config/battery.md)
+pushed: /zh/config/battery.md,电池
+SB: 39
+  * [安全性](config/safety.md)
+pushed: /zh/config/safety.md,安全性
+SB: 40
+  * [电机/舵机](config/motors.md)
+pushed: /zh/config/motors.md,电机/舵机
+SB: 41
+* [机架组装](airframes/README.md) 
+pushed: /zh/airframes/README.md,机架组装
+SB: 42
+  * [机架参考](airframes/airframe_reference.md)
+pushed: /zh/airframes/airframe_reference.md,机架参考
+SB: 43
+  * [多旋翼](frames_multicopter/README.md) 
+pushed: /zh/frames_multicopter/README.md,多旋翼
+SB: 44
+    * [DJI F450 (雷迅 v5+)](frames_multicopter/dji_f450_cuav_5plus.md)
+pushed: /zh/frames_multicopter/dji_f450_cuav_5plus.md,DJI F450 (雷迅 v5+)
+SB: 45
+    * [DJI F450 (雷迅 v5 nano)](frames_multicopter/dji_f450_cuav_5nano.md)
+pushed: /zh/frames_multicopter/dji_f450_cuav_5nano.md,DJI F450 (雷迅 v5 nano)
+SB: 46
+    * [QAV250 (Pixhawk4 Mini)](frames_multicopter/holybro_qav250_pixhawk4_mini.md)
+pushed: /zh/frames_multicopter/holybro_qav250_pixhawk4_mini.md,QAV250 (Pixhawk4 Mini)
+SB: 47
+    * [X500 (Pixhawk 4)](frames_multicopter/holybro_x500_pixhawk4.md)
+pushed: /zh/frames_multicopter/holybro_x500_pixhawk4.md,X500 (Pixhawk 4)
+SB: 48
+    * [S500 V2 (Pixhawk 4)](frames_multicopter/holybro_s500_v2_pixhawk4.md)
+pushed: /zh/frames_multicopter/holybro_s500_v2_pixhawk4.md,S500 V2 (Pixhawk 4)
+SB: 49
+    * [DJI F450 + RTK \(Pixhawk 3 Pro\)](frames_multicopter/dji_flamewheel_450.md)
+pushed: /zh/frames_multicopter/dji_flamewheel_450.md,DJI F450 + RTK \(Pixhawk 3 Pro\)
+SB: 50
+    * [QAV250 \(Pixhawk Mini\)](frames_multicopter/lumenier_qav250_pixhawk_mini.md)
+pushed: /zh/frames_multicopter/lumenier_qav250_pixhawk_mini.md,QAV250 \(Pixhawk Mini\)
+SB: 51
+    * [QAV250 \(Pixhawk/AUAV\_X2\)](frames_multicopter/lumenier_qav250_pixhawk_auav_x2.md)
+pushed: /zh/frames_multicopter/lumenier_qav250_pixhawk_auav_x2.md,QAV250 \(Pixhawk/AUAV\_X2\)
+SB: 52
+    * [Spedix 250 \(Pixracer\)](frames_multicopter/spedix_s250_pixracer.md)
+pushed: /zh/frames_multicopter/spedix_s250_pixracer.md,Spedix 250 \(Pixracer\)
+SB: 53
+    * [Robocat 270 \(Pixracer\)](frames_multicopter/robocat_270_pixracer.md)
+pushed: /zh/frames_multicopter/robocat_270_pixracer.md,Robocat 270 \(Pixracer\)
+SB: 54
+    * [Matrice 100 (Pixhawk 1)](frames_multicopter/matrice100.md)
+pushed: /zh/frames_multicopter/matrice100.md,Matrice 100 (Pixhawk 1)
+SB: 55
+    * [QAV-R 5" Racer (Pixracer)](frames_multicopter/qav_r_5_kiss_esc_racer.md)
+pushed: /zh/frames_multicopter/qav_r_5_kiss_esc_racer.md,QAV-R 5" Racer (Pixracer)
+SB: 56
+  * [固定翼](frames_plane/README.md) 
+pushed: /zh/frames_plane/README.md,固定翼
+SB: 57
+    * [Wing Wing Z84 \(Pixracer\)](frames_plane/wing_wing_z84.md)
+pushed: /zh/frames_plane/wing_wing_z84.md,Wing Wing Z84 \(Pixracer\)
+SB: 58
+  * [垂直起降（VTOL）](frames_vtol/README.md) 
+pushed: /zh/frames_vtol/README.md,垂直起降（VTOL）
+SB: 59
+    * [FunCub QuadPlane (Pixhawk)](frames_vtol/vtol_quadplane_fun_cub_vtol_pixhawk.md)
+pushed: /zh/frames_vtol/vtol_quadplane_fun_cub_vtol_pixhawk.md,FunCub QuadPlane (Pixhawk)
+SB: 60
+    * [Ranger QuadPlane (Pixhawk)](frames_vtol/vtol_quadplane_volantex_ranger_ex_pixhawk.md)
+pushed: /zh/frames_vtol/vtol_quadplane_volantex_ranger_ex_pixhawk.md,Ranger QuadPlane (Pixhawk)
+SB: 61
+    * [Convergence 倾转旋翼机（Pixfalcon）](frames_vtol/vtol_tiltrotor_eflite_convergence_pixfalcon.md)
+pushed: /zh/frames_vtol/vtol_tiltrotor_eflite_convergence_pixfalcon.md,Convergence 倾转旋翼机（Pixfalcon）
+SB: 62
+    * [TBS Caipiroshka (Pixracer)](frames_vtol/vtol_tailsitter_caipiroshka_pixracer.md)
+pushed: /zh/frames_vtol/vtol_tailsitter_caipiroshka_pixracer.md,TBS Caipiroshka (Pixracer)
+SB: 63
+    * [Falcon Vertigo 四旋翼 (Dropix)](frames_vtol/vtol_quadplane_falcon_vertigo_hybrid_rtf_dropix.md)
+pushed: /zh/frames_vtol/vtol_quadplane_falcon_vertigo_hybrid_rtf_dropix.md,Falcon Vertigo 四旋翼 (Dropix)
+SB: 64
+  * [小车](frames_rover/README.md) 
+pushed: /zh/frames_rover/README.md,小车
+SB: 65
+    * [Traxxas Stampede](frames_rover/traxxas_stampede.md)
+pushed: /zh/frames_rover/traxxas_stampede.md,Traxxas Stampede
+SB: 66
+* [飞行](flying/README.md) 
+pushed: /zh/flying/README.md,飞行
+SB: 67
+  * [首次飞行指南](flying/first_flight_guidelines.md)
+pushed: /zh/flying/first_flight_guidelines.md,首次飞行指南
+SB: 68
+  * [飞行基础指南 ](flying/basic_flying.md) 
+pushed: /zh/flying/basic_flying.md,飞行基础指南 
+SB: 69
+    * [着陆\(固定翼\)](flying/fixed_wing_landing.md)
+pushed: /zh/flying/fixed_wing_landing.md,着陆\(固定翼\)
+SB: 70
+    * [Takeoff \(Fixed Wing\)](flying/fixed_wing_takeoff.md)
+pushed: /zh/flying/fixed_wing_takeoff.md,Takeoff \(Fixed Wing\)
+SB: 71
+  * [任务](flying/missions.md)
+pushed: /zh/flying/missions.md,任务
+SB: 72
+  * [地理围栏](flying/geofence.md)
+pushed: /zh/flying/geofence.md,地理围栏
+SB: 73
+  * [安全点规划](flying/plan_safety_points.md)
+pushed: /zh/flying/plan_safety_points.md,安全点规划
+SB: 74
+  * [飞行模式](flight_modes/README.md) 
+pushed: /zh/flight_modes/README.md,飞行模式
+SB: 75
+    * [定点模式（多旋翼）](flight_modes/position_mc.md)
+pushed: /zh/flight_modes/position_mc.md,定点模式（多旋翼）
+SB: 76
+    * [定高模式（多旋翼）](flight_modes/altitude_mc.md)
+pushed: /zh/flight_modes/altitude_mc.md,定高模式（多旋翼）
+SB: 77
+    * [手动／自稳模式（多旋翼）](flight_modes/manual_stabilized_mc.md)
+pushed: /zh/flight_modes/manual_stabilized_mc.md,手动／自稳模式（多旋翼）
+SB: 78
+    * [角速度模式（多旋翼）](flight_modes/rattitude_mc.md)
+pushed: /zh/flight_modes/rattitude_mc.md,角速度模式（多旋翼）
+SB: 79
+    * [特技模式（多旋翼）](flight_modes/acro_mc.md)
+pushed: /zh/flight_modes/acro_mc.md,特技模式（多旋翼）
+SB: 80
+    * [环绕模式（多旋翼）](flight_modes/orbit.md)
+pushed: /zh/flight_modes/orbit.md,环绕模式（多旋翼）
+SB: 81
+    * [定点模式（固定翼）](flight_modes/position_fw.md)
+pushed: /zh/flight_modes/position_fw.md,定点模式（固定翼）
+SB: 82
+    * [定高模式（固定翼）](flight_modes/altitude_fw.md)
+pushed: /zh/flight_modes/altitude_fw.md,定高模式（固定翼）
+SB: 83
+    * [自稳模式（固定翼）](flight_modes/stabilized_fw.md)
+pushed: /zh/flight_modes/stabilized_fw.md,自稳模式（固定翼）
+SB: 84
+    * [特技模式（固定翼）](flight_modes/acro_fw.md)
+pushed: /zh/flight_modes/acro_fw.md,特技模式（固定翼）
+SB: 85
+    * [手动模式（固定翼）](flight_modes/manual_fw.md)
+pushed: /zh/flight_modes/manual_fw.md,手动模式（固定翼）
+SB: 86
+    * [起飞模式](flight_modes/takeoff.md)
+pushed: /zh/flight_modes/takeoff.md,起飞模式
+SB: 87
+    * [着陆模式](flight_modes/land.md)
+pushed: /zh/flight_modes/land.md,着陆模式
+SB: 88
+    * [返航模式](flight_modes/return.md)
+pushed: /zh/flight_modes/return.md,返航模式
+SB: 89
+    * [保持模式](flight_modes/hold.md)
+pushed: /zh/flight_modes/hold.md,保持模式
+SB: 90
+    * [任务模式](flight_modes/mission.md)
+pushed: /zh/flight_modes/mission.md,任务模式
+SB: 91
+    * [跟随模式](flight_modes/follow_me.md)
+pushed: /zh/flight_modes/follow_me.md,跟随模式
+SB: 92
+    * [Offboard 模式](flight_modes/offboard.md)
+pushed: /zh/flight_modes/offboard.md,Offboard 模式
+SB: 93
+  * [地形跟随/保持](flying/terrain_following_holding.md)
+pushed: /zh/flying/terrain_following_holding.md,地形跟随/保持
+SB: 94
+* [飞行日志分析](log/flight_log_analysis.md) 
+pushed: /zh/log/flight_log_analysis.md,飞行日志分析
+SB: 95
+  * [使用 Flight Review 进行日志分析](log/flight_review.md)
+pushed: /zh/log/flight_review.md,使用 Flight Review 进行日志分析
+SB: 96
+* [高级功能](advanced_features/README.md) 
+pushed: /zh/advanced_features/README.md,高级功能
+SB: 97
+  * [Air Traffic Avoidance: ADSB/FLARM](advanced_features/traffic_avoidance_adsb.md)
+pushed: /zh/advanced_features/traffic_avoidance_adsb.md,Air Traffic Avoidance: ADSB/FLARM
+SB: 98
+  * [Air Traffic Avoidance: UTM](advanced_features/traffic_avoidance_utm.md)
+pushed: /zh/advanced_features/traffic_avoidance_utm.md,Air Traffic Avoidance: UTM
+SB: 99
+  * [Computer Vision](computer_vision/README.md) 
+pushed: /zh/computer_vision/README.md,Computer Vision
+SB: 100
+    * [Obstacle Avoidance](computer_vision/obstacle_avoidance.md)
+pushed: /zh/computer_vision/obstacle_avoidance.md,Obstacle Avoidance
+SB: 101
+    * [Safe Landing](computer_vision/safe_landing.md)
+pushed: /zh/computer_vision/safe_landing.md,Safe Landing
+SB: 102
+    * [Collision Prevention](computer_vision/collision_prevention.md)
+pushed: /zh/computer_vision/collision_prevention.md,Collision Prevention
+SB: 103
+    * [Path Planning Interface](computer_vision/path_planning_interface.md)
+pushed: /zh/computer_vision/path_planning_interface.md,Path Planning Interface
+SB: 104
+    * [Motion Capture (MoCap)](computer_vision/motion_capture.md)
+pushed: /zh/computer_vision/motion_capture.md,Motion Capture (MoCap)
+SB: 105
+    * [Visual Inertial Odometry (VIO)](computer_vision/visual_inertial_odometry.md) 
+pushed: /zh/computer_vision/visual_inertial_odometry.md,Visual Inertial Odometry (VIO)
+SB: 106
+      * [Realsense T265 Tracking Camera (VIO)](peripherals/camera_t265_vio.md)
+pushed: /zh/peripherals/camera_t265_vio.md,Realsense T265 Tracking Camera (VIO)
+SB: 107
+  * [Precision Landing](advanced_features/precland.md)
+pushed: /zh/advanced_features/precland.md,Precision Landing
+SB: 108
+  * [RTK GPS](advanced_features/rtk-gps.md)
+pushed: /zh/advanced_features/rtk-gps.md,RTK GPS
+SB: 109
+  * [RockBlock SatCom System](advanced_features/satcom_roadblock.md)
+pushed: /zh/advanced_features/satcom_roadblock.md,RockBlock SatCom System
+SB: 110
+* [高级配置](advanced_config/README.md) 
+pushed: /zh/advanced_config/README.md,高级配置
+SB: 111
+  * [查找/更新参数](advanced_config/parameters.md)
+pushed: /zh/advanced_config/parameters.md,查找/更新参数
+SB: 112
+  * [多旋翼配置/调试](config_mc/README.md) 
+pushed: /zh/config_mc/README.md,多旋翼配置/调试
+SB: 113
+    * [多旋翼 PID 调试指南](config_mc/pid_tuning_guide_multicopter.md)
+pushed: /zh/config_mc/pid_tuning_guide_multicopter.md,多旋翼 PID 调试指南
+SB: 114
+    * [多旋翼 设置点调整 (轨道生成器)](config_mc/mc_trajectory_tuning.md) 
+pushed: /zh/config_mc/mc_trajectory_tuning.md,多旋翼 设置点调整 (轨道生成器)
+SB: 115
+      * [MC Jerk-limited Type Trajectory](config_mc/mc_jerk_limited_type_trajectory.md)
+pushed: /zh/config_mc/mc_jerk_limited_type_trajectory.md,MC Jerk-limited Type Trajectory
+SB: 116
+      * [MC Slew-rate Type Trajectory](config_mc/mc_slew_rate_type_trajectory.md)
+pushed: /zh/config_mc/mc_slew_rate_type_trajectory.md,MC Slew-rate Type Trajectory
+SB: 117
+    * [多旋翼竞赛设置 ](config_mc/racer_setup.md)
+pushed: /zh/config_mc/racer_setup.md,多旋翼竞赛设置 
+SB: 118
+  * [固定翼形配置/调试](config_fw/README.md) 
+pushed: /zh/config_fw/README.md,固定翼形配置/调试
+SB: 119
+    * [固定翼 PID 调参指南](config_fw/pid_tuning_guide_fixedwing.md)
+pushed: /zh/config_fw/pid_tuning_guide_fixedwing.md,固定翼 PID 调参指南
+SB: 120
+    * [固定翼高级调试指南](config_fw/advanced_tuning_guide_fixedwing.md)
+pushed: /zh/config_fw/advanced_tuning_guide_fixedwing.md,固定翼高级调试指南
+SB: 121
+    * [固定翼微调指南](config_fw/trimming_guide_fixedwing.md)
+pushed: /zh/config_fw/trimming_guide_fixedwing.md,固定翼微调指南
+SB: 122
+  * [垂直起降配置/调试](config_vtol/README.md) 
+pushed: /zh/config_vtol/README.md,垂直起降配置/调试
+SB: 123
+    * [四旋翼型固定翼配置](config_vtol/vtol_quad_configuration.md)
+pushed: /zh/config_vtol/vtol_quad_configuration.md,四旋翼型固定翼配置
+SB: 124
+    * [VTOL后转换调参](config_vtol/vtol_back_transition_tuning.md)
+pushed: /zh/config_vtol/vtol_back_transition_tuning.md,VTOL后转换调参
+SB: 125
+    * [没有空速传感器的VTOL ](config_vtol/vtol_without_airspeed_sensor.md)
+pushed: /zh/config_vtol/vtol_without_airspeed_sensor.md,没有空速传感器的VTOL 
+SB: 126
+    * [垂直起降风向仪](config_vtol/vtol_weathervane.md)
+pushed: /zh/config_vtol/vtol_weathervane.md,垂直起降风向仪
+SB: 127
+  * [电调（ESC）校准](advanced_config/esc_calibration.md)
+pushed: /zh/advanced_config/esc_calibration.md,电调（ESC）校准
+SB: 128
+  * [ECL/EKF 概述 &调试](advanced_config/tuning_the_ecl_ekf.md)
+pushed: /zh/advanced_config/tuning_the_ecl_ekf.md,ECL/EKF 概述 &调试
+SB: 129
+  * [飞行终止配置](advanced_config/flight_termination.md)
+pushed: /zh/advanced_config/flight_termination.md,飞行终止配置
+SB: 130
+  * [Bootloader 更新](advanced_config/bootloader_update.md)
+pushed: /zh/advanced_config/bootloader_update.md,Bootloader 更新
+SB: 131
+  * [刷写 Bootloader 到 Betaflight 系统](advanced_config/bootloader_update_from_betaflight.md)
+pushed: /zh/advanced_config/bootloader_update_from_betaflight.md,刷写 Bootloader 到 Betaflight 系统
+SB: 132
+  * [着陆探测器配置](advanced_config/land_detector.md)
+pushed: /zh/advanced_config/land_detector.md,着陆探测器配置
+SB: 133
+  * [传感器热补偿](advanced_config/sensor_thermal_calibration.md)
+pushed: /zh/advanced_config/sensor_thermal_calibration.md,传感器热补偿
+SB: 134
+  * [指南针动力补偿](advanced_config/compass_power_compensation.md)
+pushed: /zh/advanced_config/compass_power_compensation.md,指南针动力补偿
+SB: 135
+  * [高级控制器转向](advanced_config/advanced_flight_controller_orientation_leveling.md)
+pushed: /zh/advanced_config/advanced_flight_controller_orientation_leveling.md,高级控制器转向
+SB: 136
+  * [Static Pressure Buildup](advanced_config/static_pressure_buildup.md)
+pushed: /zh/advanced_config/static_pressure_buildup.md,Static Pressure Buildup
+SB: 137
+  * [解锁前/解锁/加锁 配置](advanced_config/prearm_arm_disarm.md)
+pushed: /zh/advanced_config/prearm_arm_disarm.md,解锁前/解锁/加锁 配置
+SB: 138
+  * [全部参数对照表](advanced_config/parameter_reference.md)
+pushed: /zh/advanced_config/parameter_reference.md,全部参数对照表
+SB: 139
+* [外围硬件](peripherals/README.md) 
+pushed: /zh/peripherals/README.md,外围硬件
+SB: 140
+  * [串口配置](peripherals/serial_configuration.md)
+pushed: /zh/peripherals/serial_configuration.md,串口配置
+SB: 141
+  * [GPS/指南针](gps_compass/README.md) 
+pushed: /zh/gps_compass/README.md,GPS/指南针
+SB: 142
+    * [RTK GPS](gps_compass/rtk_gps.md) 
+pushed: /zh/gps_compass/rtk_gps.md,RTK GPS
+SB: 143
+      * [CUAV C-RTK](gps_compass/rtk_gps_cuav_c-rtk.md)
+pushed: /zh/gps_compass/rtk_gps_cuav_c-rtk.md,CUAV C-RTK
+SB: 144
+      * [Drotek XL](gps_compass/rtk_gps_drotek_xl.md)
+pushed: /zh/gps_compass/rtk_gps_drotek_xl.md,Drotek XL
+SB: 145
+      * [Femtones MINI2 Receiver](gps_compass/rtk_gps_fem_mini2.md)
+pushed: /zh/gps_compass/rtk_gps_fem_mini2.md,Femtones MINI2 Receiver
+SB: 146
+      * [Freefly RTK GPS](gps_compass/rtk_gps_freefly.md)
+pushed: /zh/gps_compass/rtk_gps_freefly.md,Freefly RTK GPS
+SB: 147
+      * [Hex Here+](gps_compass/rtk_gps_hex_hereplus.md)
+pushed: /zh/gps_compass/rtk_gps_hex_hereplus.md,Hex Here+
+SB: 148
+      * [Hex Here2](gps_compass/rtk_gps_hex_here2.md)
+pushed: /zh/gps_compass/rtk_gps_hex_here2.md,Hex Here2
+SB: 149
+      * [Holybro H-RTK-F9P](gps_compass/rtk_gps_holybro_h-rtk-f9p.md)
+pushed: /zh/gps_compass/rtk_gps_holybro_h-rtk-f9p.md,Holybro H-RTK-F9P
+SB: 150
+      * [Holybro H-RTK-M8P](gps_compass/rtk_gps_holybro_h-rtk-m8p.md)
+pushed: /zh/gps_compass/rtk_gps_holybro_h-rtk-m8p.md,Holybro H-RTK-M8P
+SB: 151
+      * [Trimble MB-Two](gps_compass/rtk_gps_trimble_mb_two.md)
+pushed: /zh/gps_compass/rtk_gps_trimble_mb_two.md,Trimble MB-Two
+SB: 152
+  * [数传电台](telemetry/README.md) 
+pushed: /zh/telemetry/README.md,数传电台
+SB: 153
+    * [SiK 电台](telemetry/sik_radio.md) 
+pushed: /zh/telemetry/sik_radio.md,SiK 电台
+SB: 154
+      * [RFD900 数传电台](telemetry/rfd900_telemetry.md)
+pushed: /zh/telemetry/rfd900_telemetry.md,RFD900 数传电台
+SB: 155
+      * [HKPilot（SIK）遥测无线电](telemetry/hkpilot_sik_radio.md)
+pushed: /zh/telemetry/hkpilot_sik_radio.md,HKPilot（SIK）遥测无线电
+SB: 156
+      * [HolyBro（SIK）遥测无线电](telemetry/holybro_sik_radio.md)
+pushed: /zh/telemetry/holybro_sik_radio.md,HolyBro（SIK）遥测无线电
+SB: 157
+    * [WiFi 数传](telemetry/telemetry_wifi.md) 
+pushed: /zh/telemetry/telemetry_wifi.md,WiFi 数传
+SB: 158
+      * [ESP8266 WiFi 模块](telemetry/esp8266_wifi_module.md)
+pushed: /zh/telemetry/esp8266_wifi_module.md,ESP8266 WiFi 模块
+SB: 159
+      * [3DR Wifi 数传（已停产）](telemetry/3dr_telemetry_wifi.md)
+pushed: /zh/telemetry/3dr_telemetry_wifi.md,3DR Wifi 数传（已停产）
+SB: 160
+  * [MAVLink 回传（OSD/GCS）](peripherals/mavlink_peripherals.md)
+pushed: /zh/peripherals/mavlink_peripherals.md,MAVLink 回传（OSD/GCS）
+SB: 161
+  * [睿思凯（FrSky）遥测功能](peripherals/frsky_telemetry.md)
+pushed: /zh/peripherals/frsky_telemetry.md,睿思凯（FrSky）遥测功能
+SB: 162
+  * [电源模块](power_module/README.md) 
+pushed: /zh/power_module/README.md,电源模块
+SB: 163
+    * [CUAV HV 电源模块](power_module/cuav_hv_pm.md)
+pushed: /zh/power_module/cuav_hv_pm.md,CUAV HV 电源模块
+SB: 164
+    * [CUAV CAN PMU](power_module/cuav_can_pmu.md)
+pushed: /zh/power_module/cuav_can_pmu.md,CUAV CAN PMU
+SB: 165
+    * [Holybro PM07（Pixhawk 4 电源模块）](power_module/holybro_pm07_pixhawk4_power_module.md)
+pushed: /zh/power_module/holybro_pm07_pixhawk4_power_module.md,Holybro PM07（Pixhawk 4 电源模块）
+SB: 166
+    * [Holybro PM06（体积小带四路分电板）](power_module/holybro_pm06_pixhawk4mini_power_module.md)
+pushed: /zh/power_module/holybro_pm06_pixhawk4mini_power_module.md,Holybro PM06（体积小带四路分电板）
+SB: 167
+    * [Pomegranate Systems Power Module](power_module/pomegranate_systems_pm.md)
+pushed: /zh/power_module/pomegranate_systems_pm.md,Pomegranate Systems Power Module
+SB: 168
+  * [距离传感器 \(测距仪\)](sensor/rangefinders.md) 
+pushed: /zh/sensor/rangefinders.md,距离传感器 \(测距仪\)
+SB: 169
+    * [Lightware SFxx Lidar](sensor/sfxx_lidar.md)
+pushed: /zh/sensor/sfxx_lidar.md,Lightware SFxx Lidar
+SB: 170
+    * [Ainstein US-D1 Standard Radar Altimeter](sensor/ulanding_radar.md)
+pushed: /zh/sensor/ulanding_radar.md,Ainstein US-D1 Standard Radar Altimeter
+SB: 171
+    * [LeddarOne Lidar](sensor/leddar_one.md)
+pushed: /zh/sensor/leddar_one.md,LeddarOne Lidar
+SB: 172
+    * [北醒 Benewake TFmini 激光雷达](sensor/tfmini.md)
+pushed: /zh/sensor/tfmini.md,北醒 Benewake TFmini 激光雷达
+SB: 173
+    * [Lidar-Lite](sensor/lidar_lite.md)
+pushed: /zh/sensor/lidar_lite.md,Lidar-Lite
+SB: 174
+    * [TeraRanger](sensor/teraranger.md)
+pushed: /zh/sensor/teraranger.md,TeraRanger
+SB: 175
+    * [Lanbao PSK-CM8JL65-CC5](sensor/cm8jl65_ir_distance_sensor.md)
+pushed: /zh/sensor/cm8jl65_ir_distance_sensor.md,Lanbao PSK-CM8JL65-CC5
+SB: 176
+    * [Avionics Anonymous Laser Altimeter UAVCAN Interface](sensor/avanon_laser_interface.md)
+pushed: /zh/sensor/avanon_laser_interface.md,Avionics Anonymous Laser Altimeter UAVCAN Interface
+SB: 177
+  * [Tachometers (Revolution Counters)](sensor/tachometers.md) 
+pushed: /zh/sensor/tachometers.md,Tachometers (Revolution Counters)
+SB: 178
+    * [ThunderFly TFRPM01 Tachometer Sensor](sensor/thunderfly_tachometer.md)
+pushed: /zh/sensor/thunderfly_tachometer.md,ThunderFly TFRPM01 Tachometer Sensor
+SB: 179
+  * [空速传感器](sensor/airspeed.md)
+pushed: /zh/sensor/airspeed.md,空速传感器
+SB: 180
+  * [光流](sensor/optical_flow.md) 
+pushed: /zh/sensor/optical_flow.md,光流
+SB: 181
+    * [PX4FLOW](sensor/px4flow.md)
+pushed: /zh/sensor/px4flow.md,PX4FLOW
+SB: 182
+    * [PMW3901](sensor/pmw3901.md)
+pushed: /zh/sensor/pmw3901.md,PMW3901
+SB: 183
+  * [电调 & 电机](peripherals/esc_motors.md) 
+pushed: /zh/peripherals/esc_motors.md,电调 & 电机
+SB: 184
+    * [PWM ESCs and Servos](peripherals/pwm_escs_and_servo.md)
+pushed: /zh/peripherals/pwm_escs_and_servo.md,PWM ESCs and Servos
+SB: 185
+    * [DShot ESCs](peripherals/dshot.md)
+pushed: /zh/peripherals/dshot.md,DShot ESCs
+SB: 186
+    * [UAVCAN 电调](peripherals/uavcan_escs.md)
+pushed: /zh/peripherals/uavcan_escs.md,UAVCAN 电调
+SB: 187
+  * [相机](peripherals/camera.md)
+pushed: /zh/peripherals/camera.md,相机
+SB: 188
+  * [降落伞 ](peripherals/parachute.md)
+pushed: /zh/peripherals/parachute.md,降落伞 
+SB: 189
+  * [机载计算机外设](peripherals/companion_computer_peripherals.md)
+pushed: /zh/peripherals/companion_computer_peripherals.md,机载计算机外设
+SB: 190
+  * [ADSB/FLARM（交通避撞）](peripherals/adsb_flarm.md)
+pushed: /zh/peripherals/adsb_flarm.md,ADSB/FLARM（交通避撞）
+SB: 191
+* [自动驾驶仪硬件](flight_controller/README.md) 
+pushed: /zh/flight_controller/README.md,自动驾驶仪硬件
+SB: 192
+  * [Pixhawk 系列](flight_controller/pixhawk_series.md) 
+pushed: /zh/flight_controller/pixhawk_series.md,Pixhawk 系列
+SB: 193
+    * [芯片勘误表](flight_controller/silicon_errata.md)
+pushed: /zh/flight_controller/silicon_errata.md,芯片勘误表
+SB: 194
+  * [Pixhawk 标准自动驾驶仪](flight_controller/autopilot_pixhawk_standard.md) 
+pushed: /zh/flight_controller/autopilot_pixhawk_standard.md,Pixhawk 标准自动驾驶仪
+SB: 195
+    * [Holybro Pixhawk 4 (FMUv5)](flight_controller/pixhawk4.md)
+pushed: /zh/flight_controller/pixhawk4.md,Holybro Pixhawk 4 (FMUv5)
+SB: 196
+    * [Holybro Pixhawk 4 Mini (FMUv5)](flight_controller/pixhawk4_mini.md)
+pushed: /zh/flight_controller/pixhawk4_mini.md,Holybro Pixhawk 4 Mini (FMUv5)
+SB: 197
+    * [Drotek Pixhawk 3 Pro (FMUv4pro)](flight_controller/pixhawk3_pro.md)
+pushed: /zh/flight_controller/pixhawk3_pro.md,Drotek Pixhawk 3 Pro (FMUv4pro)
+SB: 198
+    * [mRo Pixracer (FMUv4)](flight_controller/pixracer.md)
+pushed: /zh/flight_controller/pixracer.md,mRo Pixracer (FMUv4)
+SB: 199
+    * [Hex Cube Black (FMUv3)](flight_controller/pixhawk-2.md)
+pushed: /zh/flight_controller/pixhawk-2.md,Hex Cube Black (FMUv3)
+SB: 200
+    * [CUAV Pixhack v3 (FMUv3)](flight_controller/pixhack_v3.md)
+pushed: /zh/flight_controller/pixhack_v3.md,CUAV Pixhack v3 (FMUv3)
+SB: 201
+    * [mRo Pixhawk (FMUv3)](flight_controller/mro_pixhawk.md)
+pushed: /zh/flight_controller/mro_pixhawk.md,mRo Pixhawk (FMUv3)
+SB: 202
+    * [Holybro pix32 (FMUv2)](flight_controller/holybro_pix32.md)
+pushed: /zh/flight_controller/holybro_pix32.md,Holybro pix32 (FMUv2)
+SB: 203
+    * [Holybro Pixhawk Mini (FMUv2)](flight_controller/pixhawk_mini.md)
+pushed: /zh/flight_controller/pixhawk_mini.md,Holybro Pixhawk Mini (FMUv2)
+SB: 204
+  * [由制造商支持的自动驾驶仪](flight_controller/autopilot_manufacturer_supported.md) 
+pushed: /zh/flight_controller/autopilot_manufacturer_supported.md,由制造商支持的自动驾驶仪
+SB: 205
+    * [AirMind MindPX](flight_controller/mindpx.md)
+pushed: /zh/flight_controller/mindpx.md,AirMind MindPX
+SB: 206
+    * [AirMind MindRacer](flight_controller/mindracer.md)
+pushed: /zh/flight_controller/mindracer.md,AirMind MindRacer
+SB: 207
+    * [CUAV V5+ (FMUv5)](flight_controller/cuav_v5_plus.md)
+pushed: /zh/flight_controller/cuav_v5_plus.md,CUAV V5+ (FMUv5)
+SB: 208
+    * [CUAV V5 nano (FMUv5)](flight_controller/cuav_v5_nano.md)
+pushed: /zh/flight_controller/cuav_v5_nano.md,CUAV V5 nano (FMUv5)
+SB: 209
+    * [Cube Orange (CubePilot)](flight_controller/cubepilot_cube_orange.md)
+pushed: /zh/flight_controller/cubepilot_cube_orange.md,Cube Orange (CubePilot)
+SB: 210
+    * [Cube Yellow (CubePilot)](flight_controller/cubepilot_cube_yellow.md)
+pushed: /zh/flight_controller/cubepilot_cube_yellow.md,Cube Yellow (CubePilot)
+SB: 211
+    * [Drotek Dropix (FMUv2)](flight_controller/dropix.md)
+pushed: /zh/flight_controller/dropix.md,Drotek Dropix (FMUv2)
+SB: 212
+    * [Holybro Kakute F7](flight_controller/kakutef7.md)
+pushed: /zh/flight_controller/kakutef7.md,Holybro Kakute F7
+SB: 213
+    * [Holybro Durandal](flight_controller/durandal.md)
+pushed: /zh/flight_controller/durandal.md,Holybro Durandal
+SB: 214
+    * [Holybro Pix32 v5](flight_controller/holybro_pix32_v5.md)
+pushed: /zh/flight_controller/holybro_pix32_v5.md,Holybro Pix32 v5
+SB: 215
+    * [mRobotics-X2.1 (FMUv2)](flight_controller/mro_x2.1.md)
+pushed: /zh/flight_controller/mro_x2.1.md,mRobotics-X2.1 (FMUv2)
+SB: 216
+    * [mRo Control Zero F7)](flight_controller/mro_control_zero_f7.md)
+pushed: /zh/flight_controller/mro_control_zero_f7.md,mRo Control Zero F7)
+SB: 217
+    * [NXP RDDRONE-FMUK66 FMU](flight_controller/nxp_rddrone_fmuk66.md)
+pushed: /zh/flight_controller/nxp_rddrone_fmuk66.md,NXP RDDRONE-FMUK66 FMU
+SB: 218
+    * [Omnibus F4 SD](flight_controller/omnibus_f4_sd.md)
+pushed: /zh/flight_controller/omnibus_f4_sd.md,Omnibus F4 SD
+SB: 219
+    * [ModalAI Flight Core v1](flight_controller/modalai_fc_v1.md)
+pushed: /zh/flight_controller/modalai_fc_v1.md,ModalAI Flight Core v1
+SB: 220
+    * [SPRacing SPRacingH7EXTREME](flight_controller/spracingh7extreme.md)
+pushed: /zh/flight_controller/spracingh7extreme.md,SPRacing SPRacingH7EXTREME
+SB: 221
+  * [Experimental/Discontinued Autopilots](flight_controller/autopilot_experimental.md) 
+pushed: /zh/flight_controller/autopilot_experimental.md,Experimental/Discontinued Autopilots
+SB: 222
+    * [Aerotenna OcPoC-Zynq Mini](flight_controller/ocpoc_zynq.md)
+pushed: /zh/flight_controller/ocpoc_zynq.md,Aerotenna OcPoC-Zynq Mini
+SB: 223
+    * [BeagleBone Blue](flight_controller/beaglebone_blue.md)
+pushed: /zh/flight_controller/beaglebone_blue.md,BeagleBone Blue
+SB: 224
+    * [Bitcraze Crazyflie 2.0](complete_vehicles/crazyflie2.md)
+pushed: /zh/complete_vehicles/crazyflie2.md,Bitcraze Crazyflie 2.0
+SB: 225
+    * [CUAV v5 (Discontinued)](flight_controller/cuav_v5.md)
+pushed: /zh/flight_controller/cuav_v5.md,CUAV v5 (Discontinued)
+SB: 226
+    * [Holybro Pixfalcon (Discontinued)](flight_controller/pixfalcon.md)
+pushed: /zh/flight_controller/pixfalcon.md,Holybro Pixfalcon (Discontinued)
+SB: 227
+    * [mRo AUAV-X2 (Discontinued)](flight_controller/auav_x2.md)
+pushed: /zh/flight_controller/auav_x2.md,mRo AUAV-X2 (Discontinued)
+SB: 228
+    * [Raspberry Pi 2/3 Navio2](flight_controller/raspberry_pi_navio2.md)
+pushed: /zh/flight_controller/raspberry_pi_navio2.md,Raspberry Pi 2/3 Navio2
+SB: 229
+    * [Snapdragon Flight (Discontinued)](flight_controller/snapdragon_flight.md) 
+pushed: /zh/flight_controller/snapdragon_flight.md,Snapdragon Flight (Discontinued)
+SB: 230
+      * [Hardware Setup Example](flight_controller/snapdragon_flight_hardware_example_setup.md)
+pushed: /zh/flight_controller/snapdragon_flight_hardware_example_setup.md,Hardware Setup Example
+SB: 231
+      * [Developer Environment Installation](flight_controller/snapdragon_flight_dev_environment_installation.md)
+pushed: /zh/flight_controller/snapdragon_flight_dev_environment_installation.md,Developer Environment Installation
+SB: 232
+      * [Snapdragon Software Installation](flight_controller/snapdragon_flight_software_installation.md)
+pushed: /zh/flight_controller/snapdragon_flight_software_installation.md,Snapdragon Software Installation
+SB: 233
+      * [Configuration](flight_controller/snapdragon_flight_configuration.md)
+pushed: /zh/flight_controller/snapdragon_flight_configuration.md,Configuration
+SB: 234
+      * [Snapdragon Advanced](flight_controller/snapdragon_flight_advanced.md)
+pushed: /zh/flight_controller/snapdragon_flight_advanced.md,Snapdragon Advanced
+SB: 235
+    * [3DR Pixhawk 1 (Discontinued)](flight_controller/pixhawk.md)
+pushed: /zh/flight_controller/pixhawk.md,3DR Pixhawk 1 (Discontinued)
+SB: 236
+* [成品机](complete_vehicles/README.md) 
+pushed: /zh/complete_vehicles/README.md,成品机
+SB: 237
+  * [PX4 视觉套机](complete_vehicles/px4_vision_kit.md)
+pushed: /zh/complete_vehicles/px4_vision_kit.md,PX4 视觉套机
+SB: 238
+  * [MindRacer BNF & RTF](complete_vehicles/mindracer_BNF_RTF.md) 
+pushed: /zh/complete_vehicles/mindracer_BNF_RTF.md,MindRacer BNF & RTF
+SB: 239
+    * [MindRacer 210](complete_vehicles/mindracer210.md)
+pushed: /zh/complete_vehicles/mindracer210.md,MindRacer 210
+SB: 240
+    * [NanoMind 110](complete_vehicles/nanomind110.md)
+pushed: /zh/complete_vehicles/nanomind110.md,NanoMind 110
+SB: 241
+  * [BetaFPV Beta75X 2S Brushless Whoop](complete_vehicles/betafpv_beta75x.md)
+pushed: /zh/complete_vehicles/betafpv_beta75x.md,BetaFPV Beta75X 2S Brushless Whoop
+SB: 242
+  * [Holybro Kopis 2](complete_vehicles/holybro_kopis2.md)
+pushed: /zh/complete_vehicles/holybro_kopis2.md,Holybro Kopis 2
+SB: 243
+  * [Intel® Aero RTF Drone (Discontinued)](complete_vehicles/intel_aero.md)
+pushed: /zh/complete_vehicles/intel_aero.md,Intel® Aero RTF Drone (Discontinued)
+SB: 244
+* [开发用途](development/development.md)
+pushed: /zh/development/development.md,开发用途
+SB: 245
+
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+## Dronecode 相关资源
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+
+TypeError: Cannot read property '1' of null
+    at Interface.rl.on (/home/ubuntu/github/px4_user_guide/.vuepress/get_sidebar.js:35:34)
+    at Interface.emit (events.js:198:13)
+    at Interface._onLine (readline.js:308:10)
+    at Interface._normalWrite (readline.js:451:12)
+    at ReadStream.ondata (readline.js:165:10)
+    at ReadStream.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at ReadStream.Readable.push (_stream_readable.js:224:10)
+    at lazyFs.read (internal/fs/streams.js:181:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:467:17)
+SOME TERRIBLE PROBLEM
+* [PX4 开发人员指南](https://dev.px4.cc/master/zh/)
+pushed: /zh/https://dev.px4.cc/master/zh/,PX4 开发人员指南
+SB: 246
+* [QGroundControl用户指南](https://docs.qgroundcontrol.com/en/)
+pushed: /zh/https://docs.qgroundcontrol.com/en/,QGroundControl用户指南
+SB: 247
+* [QGroundControl 开发人员指南](https://dev.qgc.dimianzhan.com/zh/)
+pushed: /zh/https://dev.qgc.dimianzhan.com/zh/,QGroundControl 开发人员指南
+SB: 248
+* [MAVLink指南](https://mavlink.io/en/)
+pushed: /zh/https://mavlink.io/en/,MAVLink指南
+SB: 249
+* [MAVSDK](https://mavsdk.mavlink.io/)
+pushed: /zh/https://mavsdk.mavlink.io/,MAVSDK
+SB: 250
+* [Dronecode相机管理器](https://camera-manager.dronecode.org/en/)
+pushed: /zh/https://camera-manager.dronecode.org/en/,Dronecode相机管理器
+SB: 251
+debug applyAsyncOption: additionalPages
+debug applyAsyncOption: ready
+debug applyAsyncOption: clientDynamicModules
+debug applyAsyncOption: enhanceAppFiles
+debug applyAsyncOption: globalUIComponents
+debug Cache directory: /home/ubuntu/github/px4_user_guide/node_modules/@vuepress/core/node_modules/.cache/vuepress
+debug Cache identifier : {"vuepress":"1.5.4","cache-loader":"3.0.1","vue-loader":"3.0.1","isProd":false,"config":""}
+debug watchFiles [ '.vuepress/config.js',
+  '.vuepress/config.yml',
+  '.vuepress/config.toml' ]
+debug applySyncOption: define
+debug applySyncOption: alias
+debug applySyncOption: chainWebpack
+debug applySyncOption: beforeDevServer
+debug applySyncOption: afterDevServer
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /px4_vuepress/
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/ubuntu/github/px4_user_guide/.vuepress/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+success [00:24:13] Build 6a753c finished in 12681 ms! 
+> VuePress dev server listening at http://localhost:8080/px4_vuepress/
+success [00:24:15] Build 42faf4 finished in 957 ms! ( http://localhost:8080/px4_vuepress/ )

@@ -22,7 +22,7 @@ module.exports = {
         locales: true,
       }],
       '@vuepress/back-to-top',
-      'vuepress-plugin-right-anchor', //This is the "right side page TOC",
+      require('./vuepress-plugin-right-anchor/index.js'), //This is the "right side page TOC",
       ['@vuepress/google-analytics',
         {
         'ga': 'UA-33658859-3'
