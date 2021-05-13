@@ -1,7 +1,7 @@
 // .vuepress/config.js
 
 const getSidebar = require('./get_sidebar.js');
-
+const getnav = require('./nav.json');
 
 module.exports = {
   base: process.env.BRANCH_NAME ? "/"+process.env.BRANCH_NAME+"/" : '/px4_user_guide/',
@@ -134,56 +134,7 @@ module.exports = {
         },
         */
         algolia: process.env.BRANCH_NAME ? {apiKey: 'c944f3489b25a87a95e33d9386025057',indexName: 'px4'} : {} ,
-        nav: [
-          {
-            text: 'PX4',
-            ariaLabel: 'PX4 Menu',
-            items: [
-              { text: 'Website', link: 'http://px4.io/', ariaLabel: 'PX4 website link'  },
-              { text: 'Support', link: 'https://docs.px4.io/master/en/contribute/support.html', rel:false, target:'_self', ariaLabel: 'Support information' },
-              { text: 'Autopilot Source Code', link: 'https://github.com/PX4/PX4-Autopilot', ariaLabel: 'Source code for PX4 autopilot' },
-              { text: 'Docs Source Code', link: 'https://github.com/PX4/PX4-user_guide', ariaLabel: 'Source code for PX4 user guide documentation' },
-            ]
-          },
-          { text: 'QGroundControl', link: 'http://qgroundcontrol.com/' , ariaLabel: 'QGC' },
-          { text: 'MAVSDK', link: 'https://www.dronecode.org/sdk/' , ariaLabel: 'MAVSDK' },
-          { text: 'MAVLINK', link: 'https://mavlink.io/en/' , ariaLabel: 'MAVLINK site' },
-          {
-            text: 'Docs',
-            ariaLabel: 'Documentation Menu',
-            items: [
-              { text: 'QGroundControl User Guide', link: 'https://docs.qgroundcontrol.com/en/' },
-              { text: 'QGroundControl Developer Guide', link: 'https://dev.qgroundcontrol.com/en/' },
-              { text: 'MAVLink Guide', link: 'https://mavlink.io/en/' },
-              { text: 'MAVSDK', link: 'https://mavsdk.mavlink.io/' },
-              { text: 'Dronecode Camera Manager', link: 'https://camera-manager.dronecode.org/en/' },    
-              
-            ]
-          },
-      
-          { text: 'Support', link: 'https://docs.px4.io/master/en/contribute/support.html', rel:false, target:'_self', ariaLabel: 'Support information' },
-          {
-            text: 'Version',
-            ariaLabel: 'Versions Menu',
-            items: [
-              { text: 'master', link: '/' },
-              { text: 'v1.11', link: 'https://docs.px4.io/v1.11/en/' },
-              { text: 'v1.10', link: 'https://docs.px4.io/v1.10/en/' },
-              { text: 'v1.9', link: 'https://docs.px4.io/v1.9.0/en/' },
-              { text: 'v1.8', link: 'https://docs.px4.io/v1.8.2/en/' },
-              {
-                text: 'DevGuide (Old/Merged)',
-                ariaLabel: 'Old Devguide',
-                items: [
-                  { text: 'DevGuide v1.11', link: 'https://dev.px4.io/v1.11_noredirect/en/' },
-                  { text: 'DevGuide v1.10', link: 'https://dev.px4.io/v1.10_noredirect/en/' },
-                ]
-              },
-              
-            ]
-          },
-          
-        ],
+        nav: getnav.navigation,
         sidebar: {
           '/en/': getSidebar.sidebar('en')
         }
@@ -207,7 +158,7 @@ module.exports = {
           }
         },
         // algolia docsearch options for current locale
-        algolia: process.env.BRANCH_NAME ? {apiKey: 'c944f3489b25a87a95e33d9386025057',indexName: 'px4'} : {} ,
+                algolia: process.env.BRANCH_NAME ? {apiKey: 'c944f3489b25a87a95e33d9386025057',indexName: 'px4'} : {} ,
         /*
         algolia: {
           apiKey: 'c944f3489b25a87a95e33d9386025057',
