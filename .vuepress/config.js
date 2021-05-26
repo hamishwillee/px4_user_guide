@@ -126,14 +126,15 @@ module.exports = {
             buttonText: "Refresh"
           }
         },
-        // algolia docsearch options for current locale
-        /*
+        // algolia docsearch options for English
         algolia: {
           apiKey: 'c944f3489b25a87a95e33d9386025057',
-          indexName: 'px4'
+          indexName: 'px4',
+		  algoliaOptions: {
+            hitsPerPage: 10,
+		    facetFilters: [`version:v1.11`],
+		  }
         },
-        */
-        algolia: process.env.BRANCH_NAME ? {apiKey: 'c944f3489b25a87a95e33d9386025057',indexName: 'px4'} : {} ,
         nav: [
           {
             text: 'PX4',
@@ -206,14 +207,15 @@ module.exports = {
             buttonText: "Refresh"
           }
         },
-        // algolia docsearch options for current locale
-        algolia: process.env.BRANCH_NAME ? {apiKey: 'c944f3489b25a87a95e33d9386025057',indexName: 'px4'} : {} ,
-        /*
+        // algolia docsearch options for Korean
         algolia: {
           apiKey: 'c944f3489b25a87a95e33d9386025057',
-          indexName: 'px4'
+          indexName: 'px4',
+		  algoliaOptions: {
+            hitsPerPage: 10,
+		    facetFilters: [`version:v1.8.2`],
+		  }
         },
-        */
         nav: [
           {
             text: 'PX4',
@@ -280,7 +282,15 @@ module.exports = {
             buttonText: "刷新"
           }
         },
-        algolia: process.env.BRANCH_NAME ? {apiKey: 'c944f3489b25a87a95e33d9386025057',indexName: 'px4'} : {} ,
+        // algolia docsearch options for Chinese
+        algolia: {
+          apiKey: 'c944f3489b25a87a95e33d9386025057',
+          indexName: 'px4',
+		  algoliaOptions: {
+            hitsPerPage: 10,
+		    facetFilters: [`version:v1.10`],
+		  }
+        },
         nav: [
           {
             text: 'PX4',
